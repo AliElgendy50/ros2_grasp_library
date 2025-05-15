@@ -13,7 +13,8 @@ WORKDIR $DEPS_DIR
 
 # install ros2 grasp library deps
 COPY ./script/ $DEPS_DIR/script/
-RUN bash script/install_ros2_grasp_library_deps.sh /root/deps
+RUN apt-get update && apt-get install -y wget
+RUN bash script/install_ros2_grasp_library.sh /root/deps
 
 WORKDIR /root
 ENTRYPOINT ["/root/script/ros_entrypoint.sh"]

@@ -1,27 +1,38 @@
 #!/bin/bash
 
-DEPS_DIR=${DEPS_PATH}
-librealsense_version=2.31.0-0~realsense0.1791
+set -e
+
 SUDO=$1
-if [ "$SUDO" == "sudo" ];then
-        SUDO="sudo"
-else
-        SUDO=""
+if [ "$SUDO" == "" ]; then
+    SUDO="sudo"
 fi
 
-# install librealsense v2.34.0-0~realsense0.2251
-echo "install librealsense 2.34.0-0~realsense0.2251"
-cd $DEPS_DIR
-if [ $http_proxy == "" ];then
-	$SUDO apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
-else
-	$SUDO apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --keyserver-options http-proxy=$http_proxy --recv-key F6E65AC044F831AC80A06380C8B3A55A6F3EFCDE
-fi
-$SUDO sh -c 'echo "deb http://realsense-hw-public.s3.amazonaws.com/Debian/apt-repo `lsb_release -cs` main" > /etc/apt/sources.list.d/librealsense.list'
-$SUDO apt-get update && $SUDO apt-get install -y librealsense2=${librealsense_version} \
-       	librealsense2-dev=${librealsense_version} \
-       	librealsense2-udev-rules=${librealsense_version} \
-	librealsense2-gl=${librealsense_version} \
-        librealsense2-utils=${librealsense_version} \
-	librealsense2-dbg=${librealsense_version} \
-	librealsense2-dkms
+LIBREALSENSE_VERSION=v2.34.0
+
+# Install dependencies (extended for full compatibility)
+$SUDO apt-get update
+$SUDO apt-get install -y \
+    git cmake build-essential libssl-dev libusb-1.0-0-dev pkg-config \
+    libgtk-3-dev libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev
+
+# Clone the specified version
+cd /tmp
+rm -rf librealsense   # <-- Add this line
+git clone https://github.com/IntelRealSense/librealsense.git -b ${LIBREALSENSE_VERSION}
+cd librealsense
+
+# Build and install
+mkdir build && cd build
+cmake .. -DCMAKE_BUILD_TYPE=Release
+make -j$(nproc)
+$SUDO make install
+
+
+# Install udev rules for device access
+$SUDO mkdir -p /etc/udev/rules.d/
+$SUDO cp ../config/99-realsense-libusb.rules /etc/udev/rules.d/
+$SUDO udevadm control --reload-rules && $SUDO udevadm trigger
+
+# Clean up
+cd /
+rm -rf /tmp/librealsense
