@@ -113,6 +113,3 @@ ros2 run rviz2 rviz2 -d src/ros2_grasp_library/grasp_ros2/rviz2/grasp.rviz
 
 ---
 
-## License
-
-[MIT](LICENSE) or your chosen license.
