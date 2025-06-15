@@ -13,29 +13,6 @@ This repository provides a Docker environment for the ROS2 Grasp Library and its
 
 ---
 
-## Dockerfile Overview
-
-The Dockerfile installs all dependencies and sets up the ROS 2 environment using a custom script:
-
-```dockerfile
-FROM ubuntu:bionic
-
-MAINTAINER Liu Cong "congx.liu@intel.com"
-
-ARG DEPS_DIR=/root/deps
-WORKDIR $DEPS_DIR
-
-COPY ./script/ $DEPS_DIR/script/
-RUN apt-get update && apt-get install -y wget
-RUN bash script/install_ros2_grasp_library.sh /root/deps
-
-WORKDIR /rootand 
-ENTRYPOINT ["/root/script/ros_entrypoint.sh"]
-CMD ["bash"]
-```
-
----
-
 ## Getting Started
 
 ### 1. **Build or Pull the Docker Image**
@@ -53,10 +30,12 @@ docker pull alielgendy50/ros2_grasp_library:latest
 ```sh
 xhost +local:root
 docker run --gpus all -it --rm --privileged \
+  -e DISPLAY=$DISPLAY \
+  -e QT_X11_NO_MITSHM=1 \
+  -e NVIDIA_DRIVER_CAPABILITIES=all \
   -v /tmp/.X11-unix:/tmp/.X11-unix:rw \
   -v /dev/bus/usb:/dev/bus/usb \
   -v /dev:/dev:rw \
-  -e DISPLAY=$DISPLAY \
   --name ros2_grasp_library \
   --entrypoint bash \
   alielgendy50/ros2_grasp_library:latest
@@ -86,7 +65,14 @@ source ~/ros2_ws/install/local_setup.bash
 
 ---
 
-### 5. **Run ROS 2 Nodes (each in a separate terminal)**
+### 5. **Install OpenGL Utilities in the Container**
+
+
+apt update
+apt install -y mesa-utils
+glxinfo | grep "OpenGL"
+
+### 6. **Run ROS 2 Nodes (each in a separate terminal)**
 
 **Terminal 1:**
 ```sh
@@ -113,3 +99,6 @@ ros2 run rviz2 rviz2 -d src/ros2_grasp_library/grasp_ros2/rviz2/grasp.rviz
 
 ---
 
+## License
+
+[MIT](LICENSE) or your chosen license.
