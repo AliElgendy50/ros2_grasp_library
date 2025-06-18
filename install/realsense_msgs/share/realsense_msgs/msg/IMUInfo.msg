@@ -1,0 +1,1 @@
+/root/ros2_ws/src/ros2_intel_realsense/realsense_msgs/msg/IMUInfo.msg

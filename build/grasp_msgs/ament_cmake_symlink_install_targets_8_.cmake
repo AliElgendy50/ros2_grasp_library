@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_ws/build/grasp_msgs/rosidl_generator_py/grasp_msgs/grasp_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so" "TARGETS" "grasp_msgs__rosidl_typesupport_fastrtps_c__pyext" "DESTINATION" "lib/python3.6/site-packages/grasp_msgs")

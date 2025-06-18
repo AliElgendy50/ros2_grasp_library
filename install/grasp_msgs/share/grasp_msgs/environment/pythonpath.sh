@@ -1,0 +1,1 @@
+/root/ros2_ws/build/grasp_msgs/ament_cmake_environment_hooks/pythonpath.sh

@@ -1,0 +1,20 @@
+** WARNING ** io features related to ensenso will be disabled
+** WARNING ** io features related to davidSDK will be disabled
+** WARNING ** io features related to dssdk will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+** WARNING ** visualization features related to ensenso will be disabled
+** WARNING ** visualization features related to davidSDK will be disabled
+** WARNING ** visualization features related to dssdk will be disabled
+** WARNING ** visualization features related to rssdk will be disabled
+/usr/bin/ld: warning: libiomp5.so, needed by /usr/local/lib/libgrasp_pose_detection.so, not found (try using -rpath or -rpath-link)
+/usr/local/lib/libgrasp_pose_detection.so: undefined reference to `omp_get_max_threads@VERSION'
+/usr/local/lib/libgrasp_pose_detection.so: undefined reference to `omp_get_num_threads@VERSION'
+/usr/local/lib/libgrasp_pose_detection.so: undefined reference to `GOMP_parallel@VERSION'
+/usr/local/lib/libgrasp_pose_detection.so: undefined reference to `omp_get_wtime@VERSION'
+/usr/local/lib/libgrasp_pose_detection.so: undefined reference to `omp_get_thread_num@VERSION'
+collect2: error: ld returned 1 exit status
+make[2]: *** [grasp_ros2] Error 1
+make[1]: *** [CMakeFiles/grasp_ros2.dir/all] Error 2
+make: *** [all] Error 2

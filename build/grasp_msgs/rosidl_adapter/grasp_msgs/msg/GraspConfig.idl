@@ -1,0 +1,56 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from grasp_msgs/msg/GraspConfig.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Float32.idl"
+
+module grasp_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      " This message describes a 2-finger grasp configuration by its 6-DOF pose," "\n"
+      " consisting of a 3-DOF position and 3-DOF orientation, and the opening" "\n"
+      " width of the robot hand.")
+    struct GraspConfig {
+      @verbatim (language="comment", text=
+        " Position" "\n"
+        " centered bottom/base of the robot hand)")
+      geometry_msgs::msg::Point bottom;
+
+      @verbatim (language="comment", text=
+        " centered top/fingertip of the robot hand)")
+      geometry_msgs::msg::Point top;
+
+      @verbatim (language="comment", text=
+        " centered position on object surface")
+      geometry_msgs::msg::Point surface;
+
+      @verbatim (language="comment", text=
+        " Orientation represented as three axis (R =)" "\n"
+        " The grasp approach direction")
+      @unit (value="approach binormal axis")
+      geometry_msgs::msg::Vector3 approach;
+
+      @verbatim (language="comment", text=
+        " The binormal")
+      geometry_msgs::msg::Vector3 binormal;
+
+      @verbatim (language="comment", text=
+        " The hand axis")
+      geometry_msgs::msg::Vector3 axis;
+
+      @verbatim (language="comment", text=
+        " Point at which the grasp was found")
+      geometry_msgs::msg::Point sample;
+
+      @verbatim (language="comment", text=
+        " Required aperture (opening width) of the robot hand")
+      std_msgs::msg::Float32 width;
+
+      @verbatim (language="comment", text=
+        " Score assigned to the grasp by the classifier")
+      std_msgs::msg::Float32 score;
+    };
+  };
+};

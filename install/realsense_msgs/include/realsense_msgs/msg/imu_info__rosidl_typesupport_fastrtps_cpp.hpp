@@ -1,0 +1,1 @@
+/root/ros2_ws/build/realsense_msgs/rosidl_typesupport_fastrtps_cpp/realsense_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp

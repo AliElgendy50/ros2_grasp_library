@@ -1,0 +1,2 @@
+Invoking command in '/root/ros2_ws/build/realsense_msgs': /usr/local/bin/cmake /root/ros2_ws/src/ros2_intel_realsense/realsense_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/realsense_msgs
+Invoked command in '/root/ros2_ws/build/realsense_msgs' returned '1': /usr/local/bin/cmake /root/ros2_ws/src/ros2_intel_realsense/realsense_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/realsense_msgs

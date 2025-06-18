@@ -1,0 +1,208 @@
+[0.009s] Invoking command in '/root/ros2_ws/build/grasp_ros2': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_msgs/lib:/root/ros2_ws/install/grasp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages:/root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake /root/ros2_ws/src/ros2_grasp_library/grasp_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/grasp_ros2
+[0.059s] -- The C compiler identification is GNU 7.5.0
+[0.112s] -- The CXX compiler identification is GNU 7.5.0
+[0.124s] -- Check for working C compiler: /usr/bin/cc
+[0.166s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.168s] -- Detecting C compiler ABI info
+[0.211s] -- Detecting C compiler ABI info - done
+[0.249s] -- Detecting C compile features
+[0.373s] -- Detecting C compile features - done
+[0.379s] -- Check for working CXX compiler: /usr/bin/c++
+[0.426s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.429s] -- Detecting CXX compiler ABI info
+[0.476s] -- Detecting CXX compiler ABI info - done
+[0.516s] -- Detecting CXX compile features
+[0.751s] -- Detecting CXX compile features - done
+[0.752s] -- Create Debug Build.
+[0.753s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.776s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.776s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.869s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.897s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[0.925s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[1.021s] -- Found rclcpp: 0.7.16 (/opt/ros/dashing/share/rclcpp/cmake)
+[1.053s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[1.057s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.059s] -- Looking for pthread.h
+[1.102s] -- Looking for pthread.h - found
+[1.103s] -- Looking for pthread_create
+[1.147s] -- Looking for pthread_create - not found
+[1.147s] -- Looking for pthread_create in pthreads
+[1.185s] -- Looking for pthread_create in pthreads - not found
+[1.185s] -- Looking for pthread_create in pthread
+[1.229s] -- Looking for pthread_create in pthread - found
+[1.231s] -- Found Threads: TRUE  
+[1.308s] -- Found rclcpp_components: 0.7.16 (/opt/ros/dashing/share/rclcpp_components/cmake)
+[1.316s] -- Found poco_vendor:  (/opt/ros/dashing/share/poco_vendor/cmake)
+[1.353s] -- Found grasp_msgs: 0.5.0 (/root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake)
+[1.417s] -- Found sensor_msgs: 0.7.1 (/opt/ros/dashing/share/sensor_msgs/cmake)
+[1.449s] -- Found moveit_msgs: 0.5.0 (/root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake)
+[1.575s] -- Found visualization_msgs: 0.7.1 (/opt/ros/dashing/share/visualization_msgs/cmake)
+[1.608s] -- Found tf2: 0.11.6 (/opt/ros/dashing/share/tf2/cmake)
+[1.615s] -- Found tf2_ros: 0.11.6 (/opt/ros/dashing/share/tf2_ros/cmake)
+[1.760s] -- Found tf2_geometry_msgs: 0.11.6 (/opt/ros/dashing/share/tf2_geometry_msgs/cmake)
+[1.770s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/dashing/share/eigen3_cmake_module/cmake)
+[1.775s] -- Found Eigen3: TRUE (found version "3.3.4") 
+[1.825s] -- Found pcl_conversions: 2.0.0 (/opt/ros/dashing/share/pcl_conversions/cmake)
+[1.853s] -- Checking for module 'eigen3'
+[1.863s] --   Found eigen3, version 3.2.10
+[1.883s] -- Found eigen: /usr/local/include/eigen3  
+[2.013s] -- Boost version: 1.65.1
+[2.013s] -- Found the following Boost libraries:
+[2.014s] --   system
+[2.014s] --   filesystem
+[2.014s] --   thread
+[2.014s] --   date_time
+[2.014s] --   iostreams
+[2.014s] --   serialization
+[2.014s] --   chrono
+[2.014s] --   atomic
+[2.014s] --   regex
+[2.017s] -- Checking for module 'libopenni'
+[2.027s] --   Found libopenni, version 1.5.4.0
+[2.051s] -- Found openni: /usr/lib/libOpenNI.so  
+[2.053s] -- Checking for module 'libopenni2'
+[2.062s] --   Found libopenni2, version 2.2.0.3
+[2.086s] -- Found OpenNI2: /usr/lib/libOpenNI2.so  
+[2.092s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[2.092s] ** WARNING ** io features related to ensenso will be disabled
+[2.096s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[2.096s] ** WARNING ** io features related to davidSDK will be disabled
+[2.098s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[2.098s] ** WARNING ** io features related to dssdk will be disabled
+[2.098s] ** WARNING ** io features related to pcap will be disabled
+[2.099s] ** WARNING ** io features related to png will be disabled
+[2.280s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[2.280s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[2.280s] but this file does not exist.  Possible reasons include:
+[2.280s] * The file was deleted, renamed, or moved to another location.
+[2.280s] * An install or uninstall procedure did not complete successfully.
+[2.280s] * The installation package was faulty and contained
+[2.280s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[2.281s] but not all the files it references.
+[2.281s] 
+[2.282s] -- The imported target "vtk" references the file
+[2.282s]    "/usr/bin/vtk"
+[2.282s] but this file does not exist.  Possible reasons include:
+[2.282s] * The file was deleted, renamed, or moved to another location.
+[2.282s] * An install or uninstall procedure did not complete successfully.
+[2.282s] * The installation package was faulty and contained
+[2.282s]    "/usr/lib/cmake/vtk-6.3/VTKTargets.cmake"
+[2.282s] but not all the files it references.
+[2.282s] 
+[2.430s] -- Found libusb-1.0: /usr/include  
+[2.430s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[2.431s] -- Checking for module 'flann'
+[2.441s] --   Found flann, version 1.9.1
+[2.467s] -- Found Flann: /usr/lib/x86_64-linux-gnu/libflann_cpp_s.a  
+[2.565s] -- Could NOT find ensenso (missing: ENSENSO_LIBRARY ENSENSO_INCLUDE_DIR) 
+[2.565s] ** WARNING ** visualization features related to ensenso will be disabled
+[2.568s] -- Could NOT find DAVIDSDK (missing: DAVIDSDK_LIBRARY DAVIDSDK_INCLUDE_DIR) 
+[2.569s] ** WARNING ** visualization features related to davidSDK will be disabled
+[2.570s] -- Could NOT find DSSDK (missing: _DSSDK_LIBRARIES) 
+[2.570s] ** WARNING ** visualization features related to dssdk will be disabled
+[2.572s] -- Could NOT find RSSDK (missing: _RSSDK_LIBRARIES) 
+[2.572s] ** WARNING ** visualization features related to rssdk will be disabled
+[2.665s] -- Found qhull: /usr/lib/x86_64-linux-gnu/libqhull.so  
+[2.666s] -- looking for PCL_COMMON
+[2.667s] -- Found PCL_COMMON: /usr/local/lib/libpcl_common.so  
+[2.667s] -- looking for PCL_OCTREE
+[2.668s] -- Found PCL_OCTREE: /usr/local/lib/libpcl_octree.so  
+[2.669s] -- looking for PCL_IO
+[2.670s] -- Found PCL_IO: /usr/local/lib/libpcl_io.so  
+[2.670s] -- looking for PCL_KDTREE
+[2.672s] -- Found PCL_KDTREE: /usr/local/lib/libpcl_kdtree.so  
+[2.672s] -- looking for PCL_SEARCH
+[2.673s] -- Found PCL_SEARCH: /usr/local/lib/libpcl_search.so  
+[2.674s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.675s] -- Found PCL_SAMPLE_CONSENSUS: /usr/local/lib/libpcl_sample_consensus.so  
+[2.675s] -- looking for PCL_FILTERS
+[2.677s] -- Found PCL_FILTERS: /usr/local/lib/libpcl_filters.so  
+[2.677s] -- looking for PCL_2D
+[2.678s] -- Found PCL_2D: /usr/local/include/pcl-1.8  
+[2.679s] -- looking for PCL_GEOMETRY
+[2.680s] -- Found PCL_GEOMETRY: /usr/local/include/pcl-1.8  
+[2.680s] -- looking for PCL_FEATURES
+[2.682s] -- Found PCL_FEATURES: /usr/local/lib/libpcl_features.so  
+[2.683s] -- looking for PCL_ML
+[2.684s] -- Found PCL_ML: /usr/local/lib/libpcl_ml.so  
+[2.684s] -- looking for PCL_SEGMENTATION
+[2.686s] -- Found PCL_SEGMENTATION: /usr/local/lib/libpcl_segmentation.so  
+[2.687s] -- looking for PCL_VISUALIZATION
+[2.688s] -- Found PCL_VISUALIZATION: /usr/local/lib/libpcl_visualization.so  
+[2.689s] -- looking for PCL_SURFACE
+[2.691s] -- Found PCL_SURFACE: /usr/local/lib/libpcl_surface.so  
+[2.691s] -- looking for PCL_REGISTRATION
+[2.693s] -- Found PCL_REGISTRATION: /usr/local/lib/libpcl_registration.so  
+[2.694s] -- looking for PCL_KEYPOINTS
+[2.695s] -- Found PCL_KEYPOINTS: /usr/local/lib/libpcl_keypoints.so  
+[2.696s] -- looking for PCL_TRACKING
+[2.698s] -- Found PCL_TRACKING: /usr/local/lib/libpcl_tracking.so  
+[2.699s] -- looking for PCL_RECOGNITION
+[2.700s] -- Found PCL_RECOGNITION: /usr/local/lib/libpcl_recognition.so  
+[2.702s] -- looking for PCL_STEREO
+[2.703s] -- Found PCL_STEREO: /usr/local/lib/libpcl_stereo.so  
+[2.704s] -- looking for PCL_OUTOFCORE
+[2.705s] -- Found PCL_OUTOFCORE: /usr/local/lib/libpcl_outofcore.so  
+[2.706s] -- looking for PCL_PEOPLE
+[2.708s] -- Found PCL_PEOPLE: /usr/local/lib/libpcl_people.so  
+[2.760s] -- Found PCL: /usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;-lpthread;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/local/lib/libpcl_common.so;debug;/usr/local/lib/libpcl_common.so;optimized;/usr/local/lib/libpcl_octree.so;debug;/usr/local/lib/libpcl_octree.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava;optimized;/usr/local/lib/libpcl_io.so;debug;/usr/local/lib/libpcl_io.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;optimized;/usr/local/lib/libpcl_kdtree.so;debug;/usr/local/lib/libpcl_kdtree.so;optimized;/usr/local/lib/libpcl_search.so;debug;/usr/local/lib/libpcl_search.so;optimized;/usr/local/lib/libpcl_sample_consensus.so;debug;/usr/local/lib/libpcl_sample_consensus.so;optimized;/usr/local/lib/libpcl_filters.so;debug;/usr/local/lib/libpcl_filters.so;optimized;/usr/local/lib/libpcl_features.so;debug;/usr/local/lib/libpcl_features.so;optimized;/usr/local/lib/libpcl_ml.so;debug;/usr/local/lib/libpcl_ml.so;optimized;/usr/local/lib/libpcl_segmentation.so;debug;/usr/local/lib/libpcl_segmentation.so;optimized;/usr/local/lib/libpcl_visualization.so;debug;/usr/local/lib/libpcl_visualization.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;optimized;/usr/local/lib/libpcl_surface.so;debug;/usr/local/lib/libpcl_surface.so;optimized;/usr/local/lib/libpcl_registration.so;debug;/usr/local/lib/libpcl_registration.so;optimized;/usr/local/lib/libpcl_keypoints.so;debug;/usr/local/lib/libpcl_keypoints.so;optimized;/usr/local/lib/libpcl_tracking.so;debug;/usr/local/lib/libpcl_tracking.so;optimized;/usr/local/lib/libpcl_recognition.so;debug;/usr/local/lib/libpcl_recognition.so;optimized;/usr/local/lib/libpcl_stereo.so;debug;/usr/local/lib/libpcl_stereo.so;optimized;/usr/local/lib/libpcl_outofcore.so;debug;/usr/local/lib/libpcl_outofcore.so;optimized;/usr/local/lib/libpcl_people.so;debug;/usr/local/lib/libpcl_people.so;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_thread.so;-lpthread;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_serialization.so;/usr/lib/x86_64-linux-gnu/libboost_chrono.so;/usr/lib/x86_64-linux-gnu/libboost_atomic.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;/usr/lib/libOpenNI.so;/usr/lib/libOpenNI2.so;optimized;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;debug;/usr/lib/x86_64-linux-gnu/libflann_cpp_s.a;vtkChartsCore;vtkCommonColor;vtkCommonDataModel;vtkCommonMath;vtkCommonCore;vtksys;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkInfovisCore;vtkFiltersExtraction;vtkCommonExecutionModel;vtkFiltersCore;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkftgl;vtkDICOMParser;vtkDomainsChemistry;vtkIOXML;vtkIOGeometry;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkFiltersAMR;vtkParallelCore;vtkIOLegacy;vtkFiltersFlowPaths;vtkFiltersGeneric;vtkFiltersHybrid;vtkImagingSources;vtkFiltersHyperTree;vtkFiltersImaging;vtkImagingGeneral;vtkFiltersModeling;vtkFiltersParallel;vtkFiltersParallelFlowPaths;vtkParallelMPI;vtkFiltersParallelGeometry;vtkFiltersParallelImaging;vtkFiltersParallelMPI;vtkFiltersParallelStatistics;vtkFiltersProgrammable;vtkFiltersPython;/usr/lib/x86_64-linux-gnu/libpython2.7.so;vtkWrappingPythonCore;vtkWrappingTools;vtkFiltersReebGraph;vtkFiltersSMP;vtkFiltersSelection;vtkFiltersTexture;vtkFiltersVerdict;verdict;vtkGUISupportQt;vtkInteractionStyle;vtkRenderingOpenGL;vtkImagingHybrid;vtkIOImage;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkGUISupportQtOpenGL;vtkGUISupportQtSQL;vtkIOSQL;sqlite3;vtkGUISupportQtWebkit;vtkViewsQt;vtkViewsInfovis;vtkInfovisLayout;vtkInfovisBoostGraphAlgorithms;vtkRenderingLabel;vtkViewsCore;vtkInteractionWidgets;vtkRenderingAnnotation;vtkImagingColor;vtkRenderingVolume;vtkGeovisCore;/usr/lib/x86_64-linux-gnu/libproj.so;vtkIOAMR;/usr/lib/x86_64-linux-gnu/hdf5/openmpi/libhdf5.so;/usr/lib/x86_64-linux-gnu/libsz.so;/usr/lib/x86_64-linux-gnu/libdl.so;/usr/lib/x86_64-linux-gnu/libm.so;/usr/lib/x86_64-linux-gnu/openmpi/lib/libmpi.so;vtkIOEnSight;vtkIOExodus;vtkexoIIc;/usr/lib/x86_64-linux-gnu/libnetcdf_c++.so;/usr/lib/x86_64-linux-gnu/libnetcdf.so;vtkIOExport;vtkRenderingGL2PS;vtkRenderingContextOpenGL;/usr/lib/x86_64-linux-gnu/libgl2ps.so;vtkIOFFMPEG;vtkIOMovie;/usr/lib/x86_64-linux-gnu/libtheoraenc.so;/usr/lib/x86_64-linux-gnu/libtheoradec.so;/usr/lib/x86_64-linux-gnu/libogg.so;vtkIOGDAL;vtkIOGeoJSON;vtkIOImport;vtkIOInfovis;/usr/lib/x86_64-linux-gnu/libxml2.so;vtkIOLSDyna;vtkIOMINC;vtkIOMPIImage;vtkIOMPIParallel;vtkIOParallel;vtkIONetCDF;/usr/lib/x86_64-linux-gnu/libjsoncpp.so;vtkIOMySQL;vtkIOODBC;vtkIOPLY;vtkIOParallelExodus;vtkIOParallelLSDyna;vtkIOParallelNetCDF;vtkIOParallelXML;vtkIOPostgreSQL;vtkIOVPIC;VPIC;vtkIOVideo;vtkIOXdmf2;vtkxdmf2;vtkImagingMath;vtkImagingMorphological;vtkImagingStatistics;vtkImagingStencil;vtkInteractionImage;vtkLocalExample;vtkParallelMPI4Py;vtkPythonInterpreter;vtkRenderingExternal;vtkRenderingFreeTypeFontConfig;vtkRenderingImage;vtkRenderingLIC;vtkRenderingLOD;vtkRenderingMatplotlib;vtkRenderingParallel;vtkRenderingParallelLIC;vtkRenderingQt;vtkRenderingVolumeAMR;vtkRenderingVolumeOpenGL;vtkTestingGenericBridge;vtkTestingIOSQL;vtkTestingRendering;vtkViewsContext2D;vtkViewsGeovis;vtkWrappingJava (Required is exact version "1.8.1") 
+[3.954s] -- Found ament_lint_auto: 0.7.12 (/opt/ros/dashing/share/ament_lint_auto/cmake)
+[4.019s] -- Found ament_cmake_gtest: 0.7.6 (/opt/ros/dashing/share/ament_cmake_gtest/cmake)
+[4.025s] -- Found gtest sources under '/opt/ros/dashing/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.030s] -- Check if compiler accepts -pthread
+[4.076s] -- Check if compiler accepts -pthread - yes
+[4.259s] -- Added test 'copyright' to check for copyright in CMake / C / C++ / Python code
+[4.262s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.276s] -- Configured cppcheck include dirs: /root/ros2_ws/src/ros2_grasp_library/grasp_ros2/include;/root/ros2_ws/src/ros2_grasp_library/grasp_ros2/if;/root/ros2_ws/src/ros2_grasp_library/grasp_ros2/(;/root/ros2_ws/src/ros2_grasp_library/grasp_ros2/BUILD_RECOGNIZE_PICK;/root/ros2_ws/src/ros2_grasp_library/grasp_ros2/STREQUAL;/root/ros2_ws/src/ros2_grasp_library/grasp_ros2/ON;/root/ros2_ws/src/ros2_grasp_library/grasp_ros2/);/root/ros2_ws/src/ros2_grasp_library/grasp_ros2/endif
+[4.278s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.279s] -- Added test 'lint_cmake' to check CMake code style
+[4.282s] -- Added test 'uncrustify' to check C / C++ code style
+[4.283s] -- Added test 'xmllint' to check XML markup files
+[4.290s] -- Configuring done
+[4.770s] -- Generating done
+[4.774s] -- Build files have been written to: /root/ros2_ws/build/grasp_ros2
+[4.785s] Invoked command in '/root/ros2_ws/build/grasp_ros2' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_msgs/lib:/root/ros2_ws/install/grasp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages:/root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake /root/ros2_ws/src/ros2_grasp_library/grasp_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/grasp_ros2
+[4.787s] Invoking command in '/root/ros2_ws/build/grasp_ros2': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_msgs/lib:/root/ros2_ws/install/grasp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages:/root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /root/ros2_ws/build/grasp_ros2 -- -j16 -l16
+[4.808s] [35m[1mScanning dependencies of target gtest[0m
+[4.808s] [35m[1mScanning dependencies of target grasp_plan[0m
+[4.808s] [35m[1mScanning dependencies of target gtest_main[0m
+[4.808s] [35m[1mScanning dependencies of target grasp_detect[0m
+[4.828s] [  5%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[4.840s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[4.884s] [ 17%] [32mBuilding CXX object CMakeFiles/grasp_plan.dir/src/consts.cpp.o[0m
+[4.887s] [ 23%] [32mBuilding CXX object CMakeFiles/grasp_plan.dir/src/ros_params.cpp.o[0m
+[4.887s] [ 29%] [32mBuilding CXX object CMakeFiles/grasp_plan.dir/src/grasp_planner.cpp.o[0m
+[4.949s] [ 35%] [32mBuilding CXX object CMakeFiles/grasp_detect.dir/src/consts.cpp.o[0m
+[4.953s] [ 41%] [32mBuilding CXX object CMakeFiles/grasp_detect.dir/src/ros_params.cpp.o[0m
+[4.957s] [ 47%] [32mBuilding CXX object CMakeFiles/grasp_detect.dir/src/grasp_detector_gpd.cpp.o[0m
+[5.218s] [ 52%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[5.228s] [ 52%] Built target gtest_main
+[6.741s] [ 58%] [32m[1mLinking CXX static library libgtest.a[0m
+[6.766s] [ 58%] Built target gtest
+[6.770s] [35m[1mScanning dependencies of target tgrasp_ros2[0m
+[6.882s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/tgrasp_ros2.dir/__/src/consts.cpp.o[0m
+[6.882s] [ 70%] [32mBuilding CXX object tests/CMakeFiles/tgrasp_ros2.dir/tgrasp_ros2.cpp.o[0m
+[12.403s] [ 76%] [32m[1mLinking CXX executable tgrasp_ros2[0m
+[13.148s] [ 76%] Built target tgrasp_ros2
+[13.308s] [ 82%] [32m[1mLinking CXX shared library libgrasp_plan.so[0m
+[13.431s] [ 82%] Built target grasp_plan
+[14.557s] [ 88%] [32m[1mLinking CXX shared library libgrasp_detect.so[0m
+[15.919s] [ 88%] Built target grasp_detect
+[15.923s] [35m[1mScanning dependencies of target grasp_ros2[0m
+[16.018s] [ 94%] [32mBuilding CXX object CMakeFiles/grasp_ros2.dir/src/grasp_composition.cpp.o[0m
+[21.641s] [100%] [32m[1mLinking CXX executable grasp_ros2[0m
+[22.963s] /usr/bin/ld: warning: libiomp5.so, needed by /usr/local/lib/libgrasp_pose_detection.so, not found (try using -rpath or -rpath-link)
+[22.963s] /usr/local/lib/libgrasp_pose_detection.so: undefined reference to `omp_get_max_threads@VERSION'
+[22.963s] /usr/local/lib/libgrasp_pose_detection.so: undefined reference to `omp_get_num_threads@VERSION'
+[22.963s] /usr/local/lib/libgrasp_pose_detection.so: undefined reference to `GOMP_parallel@VERSION'
+[22.963s] /usr/local/lib/libgrasp_pose_detection.so: undefined reference to `omp_get_wtime@VERSION'
+[22.963s] /usr/local/lib/libgrasp_pose_detection.so: undefined reference to `omp_get_thread_num@VERSION'
+[22.964s] collect2: error: ld returned 1 exit status
+[22.964s] make[2]: *** [grasp_ros2] Error 1
+[22.965s] CMakeFiles/grasp_ros2.dir/build.make:647: recipe for target 'grasp_ros2' failed
+[22.965s] CMakeFiles/Makefile2:179: recipe for target 'CMakeFiles/grasp_ros2.dir/all' failed
+[22.965s] Makefile:140: recipe for target 'all' failed
+[22.965s] make[1]: *** [CMakeFiles/grasp_ros2.dir/all] Error 2
+[22.965s] make: *** [all] Error 2
+[22.966s] Invoked command in '/root/ros2_ws/build/grasp_ros2' returned '2': AMENT_PREFIX_PATH=/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/root/ros2_ws/install/moveit_msgs/lib:/root/ros2_ws/install/grasp_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages:/root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /root/ros2_ws/build/grasp_ros2 -- -j16 -l16

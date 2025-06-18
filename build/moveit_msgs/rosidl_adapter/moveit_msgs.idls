@@ -1,0 +1,7 @@
+/root/ros2_ws/build/moveit_msgs/rosidl_adapter/moveit_msgs:msg/CollisionObject.idl
+/root/ros2_ws/build/moveit_msgs/rosidl_adapter/moveit_msgs:msg/Grasp.idl
+/root/ros2_ws/build/moveit_msgs/rosidl_adapter/moveit_msgs:msg/GripperTranslation.idl
+/root/ros2_ws/build/moveit_msgs/rosidl_adapter/moveit_msgs:msg/MoveItErrorCodes.idl
+/root/ros2_ws/build/moveit_msgs/rosidl_adapter/moveit_msgs:msg/ObjectType.idl
+/root/ros2_ws/build/moveit_msgs/rosidl_adapter/moveit_msgs:msg/PlaceLocation.idl
+/root/ros2_ws/build/moveit_msgs/rosidl_adapter/moveit_msgs:srv/GraspPlanning.idl

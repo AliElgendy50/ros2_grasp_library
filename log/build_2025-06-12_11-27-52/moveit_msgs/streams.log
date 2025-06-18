@@ -1,0 +1,293 @@
+[0.010s] Invoking command in '/root/ros2_ws/build/moveit_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake /root/ros2_ws/src/ros2_grasp_library/moveit_msgs_light -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_msgs
+[0.029s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.052s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.052s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.148s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.182s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[0.297s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[0.327s] -- Found FastRTPS: /opt/ros/dashing/include  
+[0.368s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.533s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[0.551s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.565s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[0.584s] -- Found shape_msgs: 0.7.1 (/opt/ros/dashing/share/shape_msgs/cmake)
+[0.607s] -- Found trajectory_msgs: 0.7.1 (/opt/ros/dashing/share/trajectory_msgs/cmake)
+[0.660s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[1.079s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[1.131s] -- Found ament_cmake_cppcheck: 0.7.12 (/opt/ros/dashing/share/ament_cmake_cppcheck/cmake)
+[1.134s] -- Found ament_cmake_cpplint: 0.7.12 (/opt/ros/dashing/share/ament_cmake_cpplint/cmake)
+[1.137s] -- Found ament_cmake_uncrustify: 0.7.12 (/opt/ros/dashing/share/ament_cmake_uncrustify/cmake)
+[1.309s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[2.810s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.832s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[2.833s] -- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[2.859s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[2.859s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.859s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[2.859s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[2.875s] -- Found PythonExtra: .so  
+[3.333s] -- Found ament_cmake_flake8: 0.7.12 (/opt/ros/dashing/share/ament_cmake_flake8/cmake)
+[3.336s] -- Found ament_cmake_pep257: 0.7.12 (/opt/ros/dashing/share/ament_cmake_pep257/cmake)
+[3.367s] -- Configuring done
+[3.696s] -- Generating done
+[3.700s] -- Build files have been written to: /root/ros2_ws/build/moveit_msgs
+[3.707s] Invoked command in '/root/ros2_ws/build/moveit_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake /root/ros2_ws/src/ros2_grasp_library/moveit_msgs_light -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_msgs
+[3.708s] Invoking command in '/root/ros2_ws/build/moveit_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/moveit_msgs -- -j16 -l16
+[3.730s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.731s] [35m[1mScanning dependencies of target moveit_msgs__cpp[0m
+[3.738s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.650s] [  2%] Built target moveit_msgs__cpp
+[4.656s] [  3%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.656s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.659s] [35m[1mScanning dependencies of target moveit_msgs__rosidl_generator_c[0m
+[4.672s] [  6%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/collision_object__functions.c.o[0m
+[4.672s] [  7%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/grasp__functions.c.o[0m
+[4.673s] [  9%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/gripper_translation__functions.c.o[0m
+[4.673s] [ 10%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/move_it_error_codes__functions.c.o[0m
+[4.673s] [ 11%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/place_location__functions.c.o[0m
+[4.673s] [ 12%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/msg/object_type__functions.c.o[0m
+[4.674s] [ 14%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_generator_c.dir/rosidl_generator_c/moveit_msgs/srv/grasp_planning__functions.c.o[0m
+[4.713s] [ 15%] [32m[1mLinking C shared library libmoveit_msgs__rosidl_generator_c.so[0m
+[4.743s] [ 15%] Built target moveit_msgs__rosidl_generator_c
+[4.748s] [ 16%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.493s] [35m[1mScanning dependencies of target moveit_msgs__rosidl_typesupport_introspection_cpp[0m
+[5.507s] [ 18%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/collision_object__type_support.cpp.o[0m
+[5.507s] [ 19%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/grasp__type_support.cpp.o[0m
+[5.508s] [ 20%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/object_type__type_support.cpp.o[0m
+[5.508s] [ 22%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/gripper_translation__type_support.cpp.o[0m
+[5.508s] [ 23%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/move_it_error_codes__type_support.cpp.o[0m
+[5.508s] [ 24%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/srv/grasp_planning__type_support.cpp.o[0m
+[5.508s] [ 25%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/moveit_msgs/msg/place_location__type_support.cpp.o[0m
+[5.577s] [35m[1mScanning dependencies of target moveit_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[5.605s] [ 31%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/gripper_translation__type_support.cpp.o[0m
+[5.605s] [ 32%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/object_type__type_support.cpp.o[0m
+[5.605s] [ 31%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/grasp__type_support.cpp.o[0m
+[5.605s] [ 31%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/move_it_error_codes__type_support.cpp.o[0m
+[5.605s] [ 31%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/collision_object__type_support.cpp.o[0m
+[5.608s] [ 33%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/msg/dds_fastrtps/place_location__type_support.cpp.o[0m
+[5.621s] [ 35%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/moveit_msgs/srv/dds_fastrtps/grasp_planning__type_support.cpp.o[0m
+[5.645s] [35m[1mScanning dependencies of target moveit_msgs__rosidl_typesupport_introspection_c[0m
+[5.685s] [ 36%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_msgs/msg/collision_object__type_support.c.o[0m
+[5.697s] [ 37%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_msgs/msg/grasp__type_support.c.o[0m
+[5.721s] [ 38%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_msgs/msg/gripper_translation__type_support.c.o[0m
+[5.734s] [ 40%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_msgs/msg/move_it_error_codes__type_support.c.o[0m
+[5.737s] [ 41%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_msgs/msg/object_type__type_support.c.o[0m
+[5.748s] [ 42%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_msgs/msg/place_location__type_support.c.o[0m
+[5.749s] [ 44%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/moveit_msgs/srv/grasp_planning__type_support.c.o[0m
+[5.788s] [ 45%] [32m[1mLinking C shared library libmoveit_msgs__rosidl_typesupport_introspection_c.so[0m
+[5.813s] [ 45%] Built target moveit_msgs__rosidl_typesupport_introspection_c
+[5.980s] [ 46%] [32m[1mLinking CXX shared library libmoveit_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[6.036s] [ 46%] Built target moveit_msgs__rosidl_typesupport_introspection_cpp
+[6.120s] [ 48%] [32m[1mLinking CXX shared library libmoveit_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.181s] [ 48%] Built target moveit_msgs__rosidl_typesupport_fastrtps_cpp
+[6.185s] [ 49%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.185s] [ 50%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.876s] [35m[1mScanning dependencies of target moveit_msgs__rosidl_typesupport_cpp[0m
+[6.892s] [ 51%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_msgs/msg/collision_object__type_support.cpp.o[0m
+[6.892s] [ 53%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_msgs/msg/grasp__type_support.cpp.o[0m
+[6.892s] [ 54%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_msgs/msg/gripper_translation__type_support.cpp.o[0m
+[6.893s] [ 55%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_msgs/msg/move_it_error_codes__type_support.cpp.o[0m
+[6.893s] [ 57%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_msgs/msg/object_type__type_support.cpp.o[0m
+[6.893s] [ 58%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_msgs/msg/place_location__type_support.cpp.o[0m
+[6.894s] [ 59%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/moveit_msgs/srv/grasp_planning__type_support.cpp.o[0m
+[6.986s] [35m[1mScanning dependencies of target moveit_msgs__rosidl_typesupport_fastrtps_c[0m
+[7.025s] [ 66%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_msgs/msg/object_type__type_support_c.cpp.o[0m
+[7.026s] [ 66%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_msgs/msg/gripper_translation__type_support_c.cpp.o[0m
+[7.026s] [ 66%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_msgs/msg/move_it_error_codes__type_support_c.cpp.o[0m
+[7.026s] [ 66%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_msgs/msg/grasp__type_support_c.cpp.o[0m
+[7.026s] [ 66%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_msgs/msg/collision_object__type_support_c.cpp.o[0m
+[7.026s] [ 67%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_msgs/msg/place_location__type_support_c.cpp.o[0m
+[7.028s] [ 68%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/moveit_msgs/srv/grasp_planning__type_support_c.cpp.o[0m
+[7.171s] [ 70%] [32m[1mLinking CXX shared library libmoveit_msgs__rosidl_typesupport_cpp.so[0m
+[7.239s] [ 70%] Built target moveit_msgs__rosidl_typesupport_cpp
+[7.316s] [ 71%] [32m[1mLinking CXX shared library libmoveit_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[7.376s] [ 71%] Built target moveit_msgs__rosidl_typesupport_fastrtps_c
+[7.381s] [ 72%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.119s] [35m[1mScanning dependencies of target moveit_msgs__rosidl_typesupport_c[0m
+[8.136s] [ 76%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_msgs/msg/grasp__type_support.cpp.o[0m
+[8.136s] [ 77%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_msgs/msg/gripper_translation__type_support.cpp.o[0m
+[8.136s] [ 76%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_msgs/msg/collision_object__type_support.cpp.o[0m
+[8.136s] [ 79%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_msgs/msg/object_type__type_support.cpp.o[0m
+[8.136s] [ 79%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_msgs/msg/move_it_error_codes__type_support.cpp.o[0m
+[8.136s] [ 80%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_msgs/msg/place_location__type_support.cpp.o[0m
+[8.137s] [ 81%] [32mBuilding CXX object CMakeFiles/moveit_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/moveit_msgs/srv/grasp_planning__type_support.cpp.o[0m
+[8.167s] [ 83%] [32m[1mLinking CXX shared library libmoveit_msgs__rosidl_typesupport_c.so[0m
+[8.209s] [ 83%] Built target moveit_msgs__rosidl_typesupport_c
+[8.213s] [35m[1mScanning dependencies of target moveit_msgs[0m
+[8.217s] [ 83%] Built target moveit_msgs
+[8.221s] [35m[1mScanning dependencies of target moveit_msgs__py[0m
+[8.225s] [ 84%] [34m[1mGenerating Python code for ROS interfaces[0m
+[9.935s] [ 84%] Built target moveit_msgs__py
+[9.939s] [35m[1mScanning dependencies of target moveit_msgs__python[0m
+[10.022s] [ 85%] [32mBuilding C object CMakeFiles/moveit_msgs__python.dir/rosidl_generator_py/moveit_msgs/msg/_grasp_s.c.o[0m
+[10.022s] [ 87%] [32mBuilding C object CMakeFiles/moveit_msgs__python.dir/rosidl_generator_py/moveit_msgs/msg/_collision_object_s.c.o[0m
+[10.022s] [ 88%] [32mBuilding C object CMakeFiles/moveit_msgs__python.dir/rosidl_generator_py/moveit_msgs/msg/_object_type_s.c.o[0m
+[10.022s] [ 89%] [32mBuilding C object CMakeFiles/moveit_msgs__python.dir/rosidl_generator_py/moveit_msgs/msg/_gripper_translation_s.c.o[0m
+[10.022s] [ 90%] [32mBuilding C object CMakeFiles/moveit_msgs__python.dir/rosidl_generator_py/moveit_msgs/msg/_move_it_error_codes_s.c.o[0m
+[10.023s] [ 92%] [32mBuilding C object CMakeFiles/moveit_msgs__python.dir/rosidl_generator_py/moveit_msgs/msg/_place_location_s.c.o[0m
+[10.023s] [ 93%] [32mBuilding C object CMakeFiles/moveit_msgs__python.dir/rosidl_generator_py/moveit_msgs/srv/_grasp_planning_s.c.o[0m
+[10.124s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/moveit_msgs/libmoveit_msgs__python.so[0m
+[10.166s] [ 94%] Built target moveit_msgs__python
+[10.170s] [35m[1mScanning dependencies of target moveit_msgs__rosidl_typesupport_c__pyext[0m
+[10.170s] [35m[1mScanning dependencies of target moveit_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[10.196s] [ 97%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/moveit_msgs/_moveit_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[10.196s] [ 97%] [32mBuilding C object CMakeFiles/moveit_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/moveit_msgs/_moveit_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.258s] [100%] [32m[1mLinking C shared library rosidl_generator_py/moveit_msgs/moveit_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[10.258s] [100%] [32m[1mLinking C shared library rosidl_generator_py/moveit_msgs/moveit_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[10.311s] [100%] Built target moveit_msgs__rosidl_typesupport_c__pyext
+[10.311s] [100%] Built target moveit_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.317s] Invoked command in '/root/ros2_ws/build/moveit_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/moveit_msgs -- -j16 -l16
+[10.402s] Invoking command in '/root/ros2_ws/build/moveit_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/moveit_msgs --target install -- -j16 -l16
+[10.424s] [  1%] Built target moveit_msgs__cpp
+[10.428s] [ 12%] Built target moveit_msgs__rosidl_generator_c
+[10.435s] [ 24%] Built target moveit_msgs__rosidl_typesupport_introspection_cpp
+[10.439s] [ 36%] Built target moveit_msgs__rosidl_typesupport_fastrtps_cpp
+[10.440s] [ 48%] Built target moveit_msgs__rosidl_typesupport_introspection_c
+[10.453s] [ 71%] Built target moveit_msgs__rosidl_typesupport_cpp
+[10.453s] [ 71%] Built target moveit_msgs__rosidl_typesupport_fastrtps_c
+[10.466s] [ 83%] Built target moveit_msgs__rosidl_typesupport_c
+[10.472s] [ 83%] Built target moveit_msgs
+[10.479s] [ 84%] Built target moveit_msgs__py
+[10.494s] [ 94%] Built target moveit_msgs__python
+[10.506s] [ 97%] Built target moveit_msgs__rosidl_typesupport_c__pyext
+[10.506s] [100%] Built target moveit_msgs__rosidl_typesupport_fastrtps_c__pyext
+[10.511s] [36mInstall the project...[0m
+[10.514s] -- Install configuration: ""
+[10.515s] -- Execute custom install script
+[10.516s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/ament_index/resource_index/rosidl_interfaces/moveit_msgs
+[10.518s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_typesupport_c.so
+[10.520s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/environment/library_path.sh
+[10.523s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_typesupport_cpp.so
+[10.526s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__rosidl_typesupport_fastrtps_c.h
+[10.528s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__rosidl_typesupport_fastrtps_c.h
+[10.530s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__rosidl_typesupport_fastrtps_c.h
+[10.532s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__rosidl_typesupport_fastrtps_c.h
+[10.534s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__rosidl_typesupport_fastrtps_c.h
+[10.536s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__rosidl_typesupport_fastrtps_c.h
+[10.538s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[10.540s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__rosidl_typesupport_fastrtps_c.h
+[10.542s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_typesupport_fastrtps_c.so
+[10.545s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object.h
+[10.548s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__functions.h
+[10.549s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__struct.h
+[10.551s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__type_support.h
+[10.553s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp.h
+[10.555s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__functions.h
+[10.557s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__struct.h
+[10.559s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__type_support.h
+[10.561s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation.h
+[10.563s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__functions.h
+[10.565s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__struct.h
+[10.567s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__type_support.h
+[10.569s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes.h
+[10.571s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__functions.h
+[10.573s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__struct.h
+[10.575s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__type_support.h
+[10.576s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type.h
+[10.578s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__functions.h
+[10.580s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__struct.h
+[10.582s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__type_support.h
+[10.584s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location.h
+[10.586s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__functions.h
+[10.588s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__struct.h
+[10.590s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__type_support.h
+[10.592s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/rosidl_generator_c__visibility_control.h
+[10.593s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning.h
+[10.595s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__functions.h
+[10.597s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__struct.h
+[10.599s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__type_support.h
+[10.602s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_generator_c.so
+[10.605s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__rosidl_typesupport_fastrtps_cpp.hpp
+[10.607s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__rosidl_typesupport_fastrtps_cpp.hpp
+[10.609s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__rosidl_typesupport_fastrtps_cpp.hpp
+[10.611s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__rosidl_typesupport_fastrtps_cpp.hpp
+[10.613s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__rosidl_typesupport_fastrtps_cpp.hpp
+[10.615s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__rosidl_typesupport_fastrtps_cpp.hpp
+[10.616s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[10.618s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__rosidl_typesupport_fastrtps_cpp.hpp
+[10.621s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_typesupport_fastrtps_cpp.so
+[10.624s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object.hpp
+[10.626s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__struct.hpp
+[10.628s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__traits.hpp
+[10.630s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp.hpp
+[10.632s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__struct.hpp
+[10.634s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__traits.hpp
+[10.635s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation.hpp
+[10.637s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__struct.hpp
+[10.639s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__traits.hpp
+[10.641s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes.hpp
+[10.643s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__struct.hpp
+[10.645s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__traits.hpp
+[10.647s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type.hpp
+[10.649s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__struct.hpp
+[10.651s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__traits.hpp
+[10.653s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location.hpp
+[10.655s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__struct.hpp
+[10.657s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__traits.hpp
+[10.659s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning.hpp
+[10.661s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__struct.hpp
+[10.662s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__traits.hpp
+[10.665s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__rosidl_typesupport_introspection_c.h
+[10.667s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__rosidl_typesupport_introspection_c.h
+[10.669s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__rosidl_typesupport_introspection_c.h
+[10.671s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__rosidl_typesupport_introspection_c.h
+[10.673s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__rosidl_typesupport_introspection_c.h
+[10.675s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__rosidl_typesupport_introspection_c.h
+[10.677s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[10.679s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__rosidl_typesupport_introspection_c.h
+[10.681s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_typesupport_introspection_c.so
+[10.684s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__rosidl_typesupport_introspection_cpp.hpp
+[10.686s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__rosidl_typesupport_introspection_cpp.hpp
+[10.688s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__rosidl_typesupport_introspection_cpp.hpp
+[10.690s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__rosidl_typesupport_introspection_cpp.hpp
+[10.692s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__rosidl_typesupport_introspection_cpp.hpp
+[10.693s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__rosidl_typesupport_introspection_cpp.hpp
+[10.695s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__rosidl_typesupport_introspection_cpp.hpp
+[10.698s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_typesupport_introspection_cpp.so
+[10.700s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/environment/pythonpath.sh
+[10.702s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/__init__.py
+[10.705s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/__init__.py
+[10.707s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/_collision_object.py
+[10.709s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/_grasp.py
+[10.711s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/_gripper_translation.py
+[10.713s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/_move_it_error_codes.py
+[10.715s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/_object_type.py
+[10.717s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/_place_location.py
+[10.719s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/srv/__init__.py
+[10.721s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/srv/_grasp_planning.py
+[10.724s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/moveit_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[10.726s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/moveit_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[10.728s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__python.so
+[10.731s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/CollisionObject.idl
+[10.733s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/Grasp.idl
+[10.735s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/GripperTranslation.idl
+[10.737s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/MoveItErrorCodes.idl
+[10.739s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/ObjectType.idl
+[10.741s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/PlaceLocation.idl
+[10.744s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/srv/GraspPlanning.idl
+[10.746s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/CollisionObject.msg
+[10.748s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/Grasp.msg
+[10.750s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/GripperTranslation.msg
+[10.752s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/MoveItErrorCodes.msg
+[10.754s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/ObjectType.msg
+[10.756s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/PlaceLocation.msg
+[10.759s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/srv/GraspPlanning.srv
+[10.761s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/srv/GraspPlanning_Request.msg
+[10.763s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/srv/GraspPlanning_Response.msg
+[10.765s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/ament_index/resource_index/package_run_dependencies/moveit_msgs
+[10.767s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/ament_index/resource_index/parent_prefix_path/moveit_msgs
+[10.769s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/environment/ament_prefix_path.sh
+[10.772s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/environment/path.sh
+[10.774s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/local_setup.bash
+[10.776s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/local_setup.sh
+[10.778s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/local_setup.zsh
+[10.780s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/ament_index/resource_index/packages/moveit_msgs
+[10.782s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake/rosidl_cmake-extras.cmake
+[10.784s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.787s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[10.789s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[10.791s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake/moveit_msgsConfig.cmake
+[10.793s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake/moveit_msgsConfig-version.cmake
+[10.795s] -- Symlinking: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/package.xml
+[10.815s] Compiling '/root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/__init__.py'...
+[10.820s] Invoked command in '/root/ros2_ws/build/moveit_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/moveit_msgs --target install -- -j16 -l16

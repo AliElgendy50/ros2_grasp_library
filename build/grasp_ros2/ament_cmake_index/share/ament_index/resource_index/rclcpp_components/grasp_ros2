@@ -1,0 +1,2 @@
+grasp_ros2::GraspDetectorGPD;lib/libgrasp_detect.so
+grasp_ros2::GraspPlanner;lib/libgrasp_plan.so

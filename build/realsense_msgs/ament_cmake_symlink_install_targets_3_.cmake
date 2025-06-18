@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_ws/build/realsense_msgs/librealsense_msgs__rosidl_generator_c.so" "TARGETS" "realsense_msgs__rosidl_generator_c" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

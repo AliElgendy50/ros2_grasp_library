@@ -1,0 +1,1 @@
+/root/ros2_ws/build/grasp_msgs/ament_cmake_core/grasp_msgsConfig-version.cmake

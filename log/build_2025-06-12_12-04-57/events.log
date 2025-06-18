@@ -1,0 +1,518 @@
+[0.000000] (-) TimerEvent: {}
+[0.000142] (-) JobUnselected: {'identifier': 'baldor'}
+[0.000200] (-) JobUnselected: {'identifier': 'criutils'}
+[0.000214] (-) JobUnselected: {'identifier': 'draw_x'}
+[0.000224] (-) JobUnselected: {'identifier': 'fixed_position_pick'}
+[0.000234] (-) JobUnselected: {'identifier': 'grasp_tutorials'}
+[0.000244] (-) JobUnselected: {'identifier': 'handeye'}
+[0.000254] (-) JobUnselected: {'identifier': 'handeye_dashboard'}
+[0.000264] (-) JobUnselected: {'identifier': 'handeye_target_detection'}
+[0.000273] (-) JobUnselected: {'identifier': 'handeye_tf_service'}
+[0.000283] (-) JobUnselected: {'identifier': 'random_pick'}
+[0.000292] (-) JobUnselected: {'identifier': 'realsense_examples'}
+[0.000302] (-) JobUnselected: {'identifier': 'recognize_pick'}
+[0.000311] (-) JobUnselected: {'identifier': 'robot_interface'}
+[0.000321] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000332] (grasp_msgs) JobQueued: {'identifier': 'grasp_msgs', 'dependencies': OrderedDict()}
+[0.000345] (moveit_msgs) JobQueued: {'identifier': 'moveit_msgs', 'dependencies': OrderedDict()}
+[0.000356] (realsense_msgs) JobQueued: {'identifier': 'realsense_msgs', 'dependencies': OrderedDict()}
+[0.000369] (grasp_ros2) JobQueued: {'identifier': 'grasp_ros2', 'dependencies': OrderedDict([('grasp_msgs', '/root/ros2_ws/install/grasp_msgs'), ('moveit_msgs', '/root/ros2_ws/install/moveit_msgs')])}
+[0.000391] (realsense_ros) JobQueued: {'identifier': 'realsense_ros', 'dependencies': OrderedDict([('realsense_msgs', '/root/ros2_ws/install/realsense_msgs')])}
+[0.000403] (realsense_node) JobQueued: {'identifier': 'realsense_node', 'dependencies': OrderedDict([('realsense_msgs', '/root/ros2_ws/install/realsense_msgs'), ('realsense_ros', '/root/ros2_ws/install/realsense_ros')])}
+[0.000421] (realsense_msgs) JobStarted: {'identifier': 'realsense_msgs'}
+[0.004607] (grasp_msgs) JobStarted: {'identifier': 'grasp_msgs'}
+[0.007872] (moveit_msgs) JobStarted: {'identifier': 'moveit_msgs'}
+[0.011742] (realsense_msgs) JobProgress: {'identifier': 'realsense_msgs', 'progress': 'cmake'}
+[0.011929] (realsense_msgs) JobProgress: {'identifier': 'realsense_msgs', 'progress': 'build'}
+[0.012347] (realsense_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/realsense_msgs', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/realsense_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '0eacc6918a5b'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/realsense_msgs'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.014557] (grasp_msgs) JobProgress: {'identifier': 'grasp_msgs', 'progress': 'cmake'}
+[0.015005] (grasp_msgs) JobProgress: {'identifier': 'grasp_msgs', 'progress': 'build'}
+[0.015259] (grasp_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/grasp_msgs', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/grasp_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '0eacc6918a5b'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/grasp_msgs'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.017756] (moveit_msgs) JobProgress: {'identifier': 'moveit_msgs', 'progress': 'cmake'}
+[0.018278] (moveit_msgs) JobProgress: {'identifier': 'moveit_msgs', 'progress': 'build'}
+[0.018530] (moveit_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/moveit_msgs', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/moveit_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '0eacc6918a5b'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/moveit_msgs'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.033115] (realsense_msgs) StdoutLine: {'line': b'[  3%] Built target realsense_msgs__cpp\n'}
+[0.034460] (realsense_msgs) StdoutLine: {'line': b'[ 13%] Built target realsense_msgs__rosidl_generator_c\n'}
+[0.035322] (grasp_msgs) StdoutLine: {'line': b'[  2%] Built target grasp_msgs__cpp\n'}
+[0.037912] (grasp_msgs) StdoutLine: {'line': b'[ 13%] Built target grasp_msgs__rosidl_generator_c\n'}
+[0.039987] (moveit_msgs) StdoutLine: {'line': b'[  1%] Built target moveit_msgs__cpp\n'}
+[0.041272] (realsense_msgs) StdoutLine: {'line': b'[ 24%] Built target realsense_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.042990] (realsense_msgs) StdoutLine: {'line': b'[ 34%] Built target realsense_msgs__rosidl_typesupport_introspection_c\n'}
+[0.043711] (realsense_msgs) StdoutLine: {'line': b'[ 44%] Built target realsense_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.044293] (moveit_msgs) StdoutLine: {'line': b'[ 12%] Built target moveit_msgs__rosidl_generator_c\n'}
+[0.045131] (grasp_msgs) StdoutLine: {'line': b'[ 24%] Built target grasp_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.047289] (grasp_msgs) StdoutLine: {'line': b'[ 35%] Built target grasp_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.047801] (grasp_msgs) StdoutLine: {'line': b'[ 46%] Built target grasp_msgs__rosidl_typesupport_introspection_c\n'}
+[0.052031] (moveit_msgs) StdoutLine: {'line': b'[ 24%] Built target moveit_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.054036] (realsense_msgs) StdoutLine: {'line': b'[ 55%] Built target realsense_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.054171] (realsense_msgs) StdoutLine: {'line': b'[ 65%] Built target realsense_msgs__rosidl_typesupport_cpp\n'}
+[0.054386] (moveit_msgs) StdoutLine: {'line': b'[ 36%] Built target moveit_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.056643] (moveit_msgs) StdoutLine: {'line': b'[ 48%] Built target moveit_msgs__rosidl_typesupport_introspection_c\n'}
+[0.059089] (grasp_msgs) StdoutLine: {'line': b'[ 57%] Built target grasp_msgs__rosidl_typesupport_cpp\n'}
+[0.059200] (grasp_msgs) StdoutLine: {'line': b'[ 68%] Built target grasp_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.064021] (realsense_msgs) StdoutLine: {'line': b'[ 75%] Built target realsense_msgs__rosidl_typesupport_c\n'}
+[0.068331] (moveit_msgs) StdoutLine: {'line': b'[ 59%] Built target moveit_msgs__rosidl_typesupport_cpp\n'}
+[0.068609] (moveit_msgs) StdoutLine: {'line': b'[ 71%] Built target moveit_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.069996] (realsense_msgs) StdoutLine: {'line': b'[ 75%] Built target realsense_msgs\n'}
+[0.070612] (grasp_msgs) StdoutLine: {'line': b'[ 80%] Built target grasp_msgs__rosidl_typesupport_c\n'}
+[0.076263] (realsense_msgs) StdoutLine: {'line': b'[ 79%] Built target realsense_msgs__py\n'}
+[0.076803] (grasp_msgs) StdoutLine: {'line': b'[ 80%] Built target grasp_msgs\n'}
+[0.081558] (moveit_msgs) StdoutLine: {'line': b'[ 83%] Built target moveit_msgs__rosidl_typesupport_c\n'}
+[0.083506] (grasp_msgs) StdoutLine: {'line': b'[ 82%] Built target grasp_msgs__py\n'}
+[0.086325] (realsense_msgs) StdoutLine: {'line': b'[ 86%] Built target realsense_msgs__python\n'}
+[0.087833] (moveit_msgs) StdoutLine: {'line': b'[ 83%] Built target moveit_msgs\n'}
+[0.094803] (moveit_msgs) StdoutLine: {'line': b'[ 84%] Built target moveit_msgs__py\n'}
+[0.095384] (grasp_msgs) StdoutLine: {'line': b'[ 91%] Built target grasp_msgs__python\n'}
+[0.095627] (realsense_msgs) StdoutLine: {'line': b'[ 93%] Built target realsense_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.095748] (realsense_msgs) StdoutLine: {'line': b'[100%] Built target realsense_msgs__rosidl_typesupport_c__pyext\n'}
+[0.098880] (realsense_msgs) CommandEnded: {'returncode': 0}
+[0.099378] (-) TimerEvent: {}
+[0.106875] (grasp_msgs) StdoutLine: {'line': b'[ 95%] Built target grasp_msgs__rosidl_typesupport_c__pyext\n'}
+[0.107072] (grasp_msgs) StdoutLine: {'line': b'[100%] Built target grasp_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.110165] (moveit_msgs) StdoutLine: {'line': b'[ 94%] Built target moveit_msgs__python\n'}
+[0.110515] (grasp_msgs) CommandEnded: {'returncode': 0}
+[0.122880] (moveit_msgs) StdoutLine: {'line': b'[ 97%] Built target moveit_msgs__rosidl_typesupport_c__pyext\n'}
+[0.123236] (moveit_msgs) StdoutLine: {'line': b'[100%] Built target moveit_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.126714] (moveit_msgs) CommandEnded: {'returncode': 0}
+[0.129403] (realsense_msgs) JobProgress: {'identifier': 'realsense_msgs', 'progress': 'install'}
+[0.132489] (realsense_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/realsense_msgs', '--target', 'install', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/realsense_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '0eacc6918a5b'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/realsense_msgs'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.152228] (realsense_msgs) StdoutLine: {'line': b'[  3%] Built target realsense_msgs__cpp\n'}
+[0.153542] (realsense_msgs) StdoutLine: {'line': b'[ 13%] Built target realsense_msgs__rosidl_generator_c\n'}
+[0.158192] (grasp_msgs) JobProgress: {'identifier': 'grasp_msgs', 'progress': 'install'}
+[0.158575] (grasp_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/grasp_msgs', '--target', 'install', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/grasp_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '0eacc6918a5b'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/grasp_msgs'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.160446] (realsense_msgs) StdoutLine: {'line': b'[ 24%] Built target realsense_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.161408] (realsense_msgs) StdoutLine: {'line': b'[ 34%] Built target realsense_msgs__rosidl_typesupport_introspection_c\n'}
+[0.162208] (realsense_msgs) StdoutLine: {'line': b'[ 44%] Built target realsense_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.172259] (realsense_msgs) StdoutLine: {'line': b'[ 55%] Built target realsense_msgs__rosidl_typesupport_cpp\n'}
+[0.172487] (realsense_msgs) StdoutLine: {'line': b'[ 65%] Built target realsense_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.179029] (grasp_msgs) StdoutLine: {'line': b'[  2%] Built target grasp_msgs__cpp\n'}
+[0.181575] (grasp_msgs) StdoutLine: {'line': b'[ 13%] Built target grasp_msgs__rosidl_generator_c\n'}
+[0.182348] (realsense_msgs) StdoutLine: {'line': b'[ 75%] Built target realsense_msgs__rosidl_typesupport_c\n'}
+[0.188206] (grasp_msgs) StdoutLine: {'line': b'[ 24%] Built target grasp_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.188297] (realsense_msgs) StdoutLine: {'line': b'[ 75%] Built target realsense_msgs\n'}
+[0.190604] (grasp_msgs) StdoutLine: {'line': b'[ 35%] Built target grasp_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.191573] (grasp_msgs) StdoutLine: {'line': b'[ 46%] Built target grasp_msgs__rosidl_typesupport_introspection_c\n'}
+[0.194691] (realsense_msgs) StdoutLine: {'line': b'[ 79%] Built target realsense_msgs__py\n'}
+[0.199460] (-) TimerEvent: {}
+[0.201976] (grasp_msgs) StdoutLine: {'line': b'[ 57%] Built target grasp_msgs__rosidl_typesupport_cpp\n'}
+[0.202155] (grasp_msgs) StdoutLine: {'line': b'[ 68%] Built target grasp_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.204960] (realsense_msgs) StdoutLine: {'line': b'[ 86%] Built target realsense_msgs__python\n'}
+[0.213460] (moveit_msgs) JobProgress: {'identifier': 'moveit_msgs', 'progress': 'install'}
+[0.213909] (moveit_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/moveit_msgs', '--target', 'install', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/moveit_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '0eacc6918a5b'), ('LD_LIBRARY_PATH', '/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/moveit_msgs'), ('PYTHONPATH', '/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/dashing')]), 'shell': False}
+[0.215517] (grasp_msgs) StdoutLine: {'line': b'[ 80%] Built target grasp_msgs__rosidl_typesupport_c\n'}
+[0.216045] (realsense_msgs) StdoutLine: {'line': b'[ 93%] Built target realsense_msgs__rosidl_typesupport_c__pyext\n'}
+[0.216228] (realsense_msgs) StdoutLine: {'line': b'[100%] Built target realsense_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.219615] (realsense_msgs) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.220456] (grasp_msgs) StdoutLine: {'line': b'[ 80%] Built target grasp_msgs\n'}
+[0.221813] (realsense_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.223304] (realsense_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.223930] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/ament_index/resource_index/rosidl_interfaces/realsense_msgs\n'}
+[0.224674] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_c.so\n'}
+[0.225198] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/environment/library_path.sh\n'}
+[0.225934] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_cpp.so\n'}
+[0.227151] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info__rosidl_typesupport_fastrtps_c.h\n'}
+[0.227440] (grasp_msgs) StdoutLine: {'line': b'[ 82%] Built target grasp_msgs__py\n'}
+[0.227619] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.228383] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.229318] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info.h\n'}
+[0.229515] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info__functions.h\n'}
+[0.229822] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info__struct.h\n'}
+[0.230125] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info__type_support.h\n'}
+[0.230420] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.231332] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_generator_c.so\n'}
+[0.232524] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.232717] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.233526] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.234529] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info.hpp\n'}
+[0.234788] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info__struct.hpp\n'}
+[0.235090] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info__traits.hpp\n'}
+[0.236053] (moveit_msgs) StdoutLine: {'line': b'[  1%] Built target moveit_msgs__cpp\n'}
+[0.236272] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info__rosidl_typesupport_introspection_c.h\n'}
+[0.236508] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.237297] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.238173] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/include/realsense_msgs/msg/imu_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.238992] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.239488] (grasp_msgs) StdoutLine: {'line': b'[ 91%] Built target grasp_msgs__python\n'}
+[0.239654] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/environment/pythonpath.sh\n'}
+[0.240113] (moveit_msgs) StdoutLine: {'line': b'[ 12%] Built target moveit_msgs__rosidl_generator_c\n'}
+[0.240244] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages/realsense_msgs/__init__.py\n'}
+[0.241133] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages/realsense_msgs/msg/__init__.py\n'}
+[0.241412] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages/realsense_msgs/msg/_imu_info.py\n'}
+[0.242193] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages/realsense_msgs/realsense_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[0.242990] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages/realsense_msgs/realsense_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[0.243861] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/lib/librealsense_msgs__python.so\n'}
+[0.244347] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/msg/IMUInfo.idl\n'}
+[0.244899] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/msg/IMUInfo.msg\n'}
+[0.245455] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/ament_index/resource_index/package_run_dependencies/realsense_msgs\n'}
+[0.246021] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/ament_index/resource_index/parent_prefix_path/realsense_msgs\n'}
+[0.246561] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/environment/ament_prefix_path.sh\n'}
+[0.247108] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/environment/path.sh\n'}
+[0.247671] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/local_setup.bash\n'}
+[0.247962] (moveit_msgs) StdoutLine: {'line': b'[ 24%] Built target moveit_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.248212] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/local_setup.sh\n'}
+[0.248772] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/local_setup.zsh\n'}
+[0.249337] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/ament_index/resource_index/packages/realsense_msgs\n'}
+[0.249869] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.250396] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.250633] (moveit_msgs) StdoutLine: {'line': b'[ 36%] Built target moveit_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.250939] (grasp_msgs) StdoutLine: {'line': b'[ 95%] Built target grasp_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.250993] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.251073] (grasp_msgs) StdoutLine: {'line': b'[100%] Built target grasp_msgs__rosidl_typesupport_c__pyext\n'}
+[0.251547] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.252106] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgsConfig.cmake\n'}
+[0.252409] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/cmake/realsense_msgsConfig-version.cmake\n'}
+[0.252500] (moveit_msgs) StdoutLine: {'line': b'[ 48%] Built target moveit_msgs__rosidl_typesupport_introspection_c\n'}
+[0.252952] (realsense_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_msgs/share/realsense_msgs/package.xml\n'}
+[0.256100] (grasp_msgs) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.258220] (grasp_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.259603] (grasp_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.260191] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/ament_index/resource_index/rosidl_interfaces/grasp_msgs\n'}
+[0.260945] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_c.so\n'}
+[0.261500] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/environment/library_path.sh\n'}
+[0.262166] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_cpp.so\n'}
+[0.263554] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__rosidl_typesupport_fastrtps_c.h\n'}
+[0.263878] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_fastrtps_c.h\n'}
+[0.264185] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.264532] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__rosidl_typesupport_fastrtps_c.h\n'}
+[0.264901] (moveit_msgs) StdoutLine: {'line': b'[ 59%] Built target moveit_msgs__rosidl_typesupport_cpp\n'}
+[0.264995] (moveit_msgs) StdoutLine: {'line': b'[ 71%] Built target moveit_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.265276] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.266506] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config.h\n'}
+[0.266773] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__functions.h\n'}
+[0.267092] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__struct.h\n'}
+[0.267530] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__type_support.h\n'}
+[0.267859] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list.h\n'}
+[0.268120] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__functions.h\n'}
+[0.268353] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__struct.h\n'}
+[0.268680] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__type_support.h\n'}
+[0.268924] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.269204] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg.h\n'}
+[0.269514] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__functions.h\n'}
+[0.269783] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__struct.h\n'}
+[0.270098] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__type_support.h\n'}
+[0.270895] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_generator_c.so\n'}
+[0.272290] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.272537] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.272849] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.273116] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.273879] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.274968] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config.hpp\n'}
+[0.275391] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__struct.hpp\n'}
+[0.276095] (realsense_msgs) CommandEnded: {'returncode': 0}
+[0.276848] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__traits.hpp\n'}
+[0.277115] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list.hpp\n'}
+[0.277159] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__struct.hpp\n'}
+[0.277202] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__traits.hpp\n'}
+[0.277243] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg.hpp\n'}
+[0.277311] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__struct.hpp\n'}
+[0.277428] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__traits.hpp\n'}
+[0.277900] (moveit_msgs) StdoutLine: {'line': b'[ 83%] Built target moveit_msgs__rosidl_typesupport_c\n'}
+[0.278672] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__rosidl_typesupport_introspection_c.h\n'}
+[0.279280] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_introspection_c.h\n'}
+[0.279332] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.279443] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__rosidl_typesupport_introspection_c.h\n'}
+[0.280373] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.281406] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.281515] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.282079] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.282548] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.283129] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/environment/pythonpath.sh\n'}
+[0.283757] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/__init__.py\n'}
+[0.284660] (moveit_msgs) StdoutLine: {'line': b'[ 83%] Built target moveit_msgs\n'}
+[0.285172] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/msg/__init__.py\n'}
+[0.285247] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/msg/_grasp_config.py\n'}
+[0.285292] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/msg/_grasp_config_list.py\n'}
+[0.285694] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/msg/_samples_msg.py\n'}
+[0.286367] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/grasp_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[0.287182] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/grasp_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[0.288838] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__python.so\n'}
+[0.289186] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/GraspConfig.idl\n'}
+[0.289236] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/GraspConfigList.idl\n'}
+[0.289507] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/SamplesMsg.idl\n'}
+[0.290094] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/GraspConfig.msg\n'}
+[0.290514] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/GraspConfigList.msg\n'}
+[0.291026] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/SamplesMsg.msg\n'}
+[0.291094] (moveit_msgs) StdoutLine: {'line': b'[ 84%] Built target moveit_msgs__py\n'}
+[0.291613] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/ament_index/resource_index/package_run_dependencies/grasp_msgs\n'}
+[0.292223] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/ament_index/resource_index/parent_prefix_path/grasp_msgs\n'}
+[0.292736] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/environment/ament_prefix_path.sh\n'}
+[0.293442] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/environment/path.sh\n'}
+[0.293783] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/local_setup.bash\n'}
+[0.294273] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/local_setup.sh\n'}
+[0.294844] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/local_setup.zsh\n'}
+[0.295343] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/ament_index/resource_index/packages/grasp_msgs\n'}
+[0.295911] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.296462] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.297025] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.297512] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.298067] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/grasp_msgsConfig.cmake\n'}
+[0.298382] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/grasp_msgsConfig-version.cmake\n'}
+[0.298913] (grasp_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/package.xml\n'}
+[0.299519] (-) TimerEvent: {}
+[0.306274] (moveit_msgs) StdoutLine: {'line': b'[ 94%] Built target moveit_msgs__python\n'}
+[0.318506] (moveit_msgs) StdoutLine: {'line': b'[ 98%] Built target moveit_msgs__rosidl_typesupport_c__pyext\n'}
+[0.318708] (moveit_msgs) StdoutLine: {'line': b'[100%] Built target moveit_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.321837] (realsense_msgs) JobEnded: {'identifier': 'realsense_msgs', 'rc': 0}
+[0.322683] (realsense_ros) JobStarted: {'identifier': 'realsense_ros'}
+[0.324664] (moveit_msgs) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.326054] (grasp_msgs) CommandEnded: {'returncode': 0}
+[0.326768] (moveit_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.327933] (moveit_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.328489] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/ament_index/resource_index/rosidl_interfaces/moveit_msgs\n'}
+[0.329375] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_typesupport_c.so\n'}
+[0.329770] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/environment/library_path.sh\n'}
+[0.330572] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_typesupport_cpp.so\n'}
+[0.332215] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__rosidl_typesupport_fastrtps_c.h\n'}
+[0.332412] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__rosidl_typesupport_fastrtps_c.h\n'}
+[0.332735] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__rosidl_typesupport_fastrtps_c.h\n'}
+[0.333934] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__rosidl_typesupport_fastrtps_c.h\n'}
+[0.334246] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__rosidl_typesupport_fastrtps_c.h\n'}
+[0.334295] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__rosidl_typesupport_fastrtps_c.h\n'}
+[0.334338] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.334382] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__rosidl_typesupport_fastrtps_c.h\n'}
+[0.335193] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[0.335353] (realsense_ros) JobProgress: {'identifier': 'realsense_ros', 'progress': 'cmake'}
+[0.335773] (realsense_ros) JobProgress: {'identifier': 'realsense_ros', 'progress': 'build'}
+[0.336037] (realsense_ros) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/realsense_ros', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/realsense_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '0eacc6918a5b'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/realsense_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/realsense_msgs:/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/realsense_ros'), ('PYTHONPATH', '/root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/realsense_msgs:/opt/ros/dashing')]), 'shell': False}
+[0.337960] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object.h\n'}
+[0.338025] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__functions.h\n'}
+[0.338070] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__struct.h\n'}
+[0.338114] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__type_support.h\n'}
+[0.338155] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp.h\n'}
+[0.338210] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__functions.h\n'}
+[0.338517] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__struct.h\n'}
+[0.338815] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__type_support.h\n'}
+[0.339083] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation.h\n'}
+[0.339478] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__functions.h\n'}
+[0.339717] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__struct.h\n'}
+[0.340101] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__type_support.h\n'}
+[0.340335] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes.h\n'}
+[0.340695] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__functions.h\n'}
+[0.340957] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__struct.h\n'}
+[0.341303] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__type_support.h\n'}
+[0.341580] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type.h\n'}
+[0.341872] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__functions.h\n'}
+[0.342171] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__struct.h\n'}
+[0.342496] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__type_support.h\n'}
+[0.342795] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location.h\n'}
+[0.343096] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__functions.h\n'}
+[0.343417] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__struct.h\n'}
+[0.343747] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__type_support.h\n'}
+[0.344050] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.344327] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning.h\n'}
+[0.344649] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__functions.h\n'}
+[0.344964] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__struct.h\n'}
+[0.345233] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__type_support.h\n'}
+[0.346050] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_generator_c.so\n'}
+[0.347712] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.347990] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.348340] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.348624] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.348935] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.349230] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.349531] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.349877] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.350699] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.352114] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object.hpp\n'}
+[0.352378] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__struct.hpp\n'}
+[0.352687] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__traits.hpp\n'}
+[0.352984] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp.hpp\n'}
+[0.353279] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__struct.hpp\n'}
+[0.353604] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__traits.hpp\n'}
+[0.353897] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation.hpp\n'}
+[0.354206] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__struct.hpp\n'}
+[0.354515] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__traits.hpp\n'}
+[0.354807] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes.hpp\n'}
+[0.355296] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__struct.hpp\n'}
+[0.355416] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__traits.hpp\n'}
+[0.355741] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type.hpp\n'}
+[0.355820] (realsense_ros) StdoutLine: {'line': b'[ 16%] Built target gtest_main\n'}
+[0.355975] (realsense_ros) StdoutLine: {'line': b'[ 33%] Built target gtest\n'}
+[0.356048] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__struct.hpp\n'}
+[0.356349] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__traits.hpp\n'}
+[0.356664] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location.hpp\n'}
+[0.356960] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__struct.hpp\n'}
+[0.357273] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__traits.hpp\n'}
+[0.357597] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning.hpp\n'}
+[0.357880] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__struct.hpp\n'}
+[0.358160] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__traits.hpp\n'}
+[0.359416] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__rosidl_typesupport_introspection_c.h\n'}
+[0.359781] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__rosidl_typesupport_introspection_c.h\n'}
+[0.360058] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__rosidl_typesupport_introspection_c.h\n'}
+[0.360357] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__rosidl_typesupport_introspection_c.h\n'}
+[0.360665] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__rosidl_typesupport_introspection_c.h\n'}
+[0.361027] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__rosidl_typesupport_introspection_c.h\n'}
+[0.361271] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.361601] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__rosidl_typesupport_introspection_c.h\n'}
+[0.362407] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_typesupport_introspection_c.so\n'}
+[0.363556] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/collision_object__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.363835] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/grasp__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.364150] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/gripper_translation__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.364458] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/move_it_error_codes__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.364750] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/object_type__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.365062] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/msg/place_location__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.365385] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/include/moveit_msgs/srv/grasp_planning__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.366195] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[0.366718] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/environment/pythonpath.sh\n'}
+[0.367236] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/__init__.py\n'}
+[0.368351] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/__init__.py\n'}
+[0.368643] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/_collision_object.py\n'}
+[0.368952] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/_grasp.py\n'}
+[0.369261] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/_gripper_translation.py\n'}
+[0.369562] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/_move_it_error_codes.py\n'}
+[0.369829] (realsense_ros) StdoutLine: {'line': b'[ 83%] Built target realsense_ros\n'}
+[0.369895] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/_object_type.py\n'}
+[0.370177] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/msg/_place_location.py\n'}
+[0.371157] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/srv/__init__.py\n'}
+[0.371463] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/srv/_grasp_planning.py\n'}
+[0.372273] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/moveit_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[0.373039] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages/moveit_msgs/moveit_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so\n'}
+[0.373851] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/lib/libmoveit_msgs__python.so\n'}
+[0.374355] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/CollisionObject.idl\n'}
+[0.374901] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/Grasp.idl\n'}
+[0.375640] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/GripperTranslation.idl\n'}
+[0.376270] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/MoveItErrorCodes.idl\n'}
+[0.377049] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/ObjectType.idl\n'}
+[0.377997] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/PlaceLocation.idl\n'}
+[0.378094] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/srv/GraspPlanning.idl\n'}
+[0.378655] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/CollisionObject.msg\n'}
+[0.379307] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/Grasp.msg\n'}
+[0.379730] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/GripperTranslation.msg\n'}
+[0.380509] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/MoveItErrorCodes.msg\n'}
+[0.380862] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/ObjectType.msg\n'}
+[0.381272] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/msg/PlaceLocation.msg\n'}
+[0.381828] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/srv/GraspPlanning.srv\n'}
+[0.382326] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/srv/GraspPlanning_Request.msg\n'}
+[0.383007] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/srv/GraspPlanning_Response.msg\n'}
+[0.383514] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/ament_index/resource_index/package_run_dependencies/moveit_msgs\n'}
+[0.383940] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/ament_index/resource_index/parent_prefix_path/moveit_msgs\n'}
+[0.384499] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/environment/ament_prefix_path.sh\n'}
+[0.384985] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/environment/path.sh\n'}
+[0.385194] (grasp_msgs) JobEnded: {'identifier': 'grasp_msgs', 'rc': 0}
+[0.385436] (realsense_ros) StdoutLine: {'line': b'[100%] Built target camera_core\n'}
+[0.385556] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/local_setup.bash\n'}
+[0.386030] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/local_setup.sh\n'}
+[0.386544] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/local_setup.zsh\n'}
+[0.387074] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/ament_index/resource_index/packages/moveit_msgs\n'}
+[0.387636] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[0.388423] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.388631] (realsense_ros) CommandEnded: {'returncode': 0}
+[0.388843] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.389907] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.390234] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake/moveit_msgsConfig.cmake\n'}
+[0.390291] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/cmake/moveit_msgsConfig-version.cmake\n'}
+[0.390603] (moveit_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/moveit_msgs/share/moveit_msgs/package.xml\n'}
+[0.399589] (-) TimerEvent: {}
+[0.407559] (realsense_ros) JobProgress: {'identifier': 'realsense_ros', 'progress': 'install'}
+[0.407899] (realsense_ros) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/realsense_ros', '--target', 'install', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/realsense_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '0eacc6918a5b'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/realsense_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/realsense_msgs:/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/realsense_ros'), ('PYTHONPATH', '/root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/realsense_msgs:/opt/ros/dashing')]), 'shell': False}
+[0.413664] (moveit_msgs) CommandEnded: {'returncode': 0}
+[0.428517] (realsense_ros) StdoutLine: {'line': b'[ 16%] Built target gtest_main\n'}
+[0.428792] (realsense_ros) StdoutLine: {'line': b'[ 33%] Built target gtest\n'}
+[0.442320] (realsense_ros) StdoutLine: {'line': b'[ 83%] Built target realsense_ros\n'}
+[0.457160] (realsense_ros) StdoutLine: {'line': b'[100%] Built target camera_core\n'}
+[0.461681] (realsense_ros) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.464104] (realsense_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.465200] (realsense_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.465948] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/lib/librealsense_ros.so\n'}
+[0.467058] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/include/realsense/rs_base.hpp\n'}
+[0.467404] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/include/realsense/rs_constants.hpp\n'}
+[0.467724] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/include/realsense/rs_d435.hpp\n'}
+[0.467969] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/include/realsense/rs_d435i.hpp\n'}
+[0.468276] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/include/realsense/rs_factory.hpp\n'}
+[0.468587] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/include/realsense/rs_t265.hpp\n'}
+[0.469172] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/realsense_ros/environment/library_path.sh\n'}
+[0.469701] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/ament_index/resource_index/package_run_dependencies/realsense_ros\n'}
+[0.470174] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/ament_index/resource_index/parent_prefix_path/realsense_ros\n'}
+[0.470711] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/realsense_ros/environment/ament_prefix_path.sh\n'}
+[0.471643] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/realsense_ros/environment/path.sh\n'}
+[0.472168] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/realsense_ros/local_setup.bash\n'}
+[0.472691] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/realsense_ros/local_setup.sh\n'}
+[0.473185] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/realsense_ros/local_setup.zsh\n'}
+[0.473666] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/ament_index/resource_index/packages/realsense_ros\n'}
+[0.474211] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/ament_index/resource_index/rclcpp_components/realsense_ros\n'}
+[0.474718] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/realsense_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.475297] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/realsense_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.475873] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/realsense_ros/cmake/realsense_rosConfig.cmake\n'}
+[0.476111] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/realsense_ros/cmake/realsense_rosConfig-version.cmake\n'}
+[0.476637] (realsense_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_ros/share/realsense_ros/package.xml\n'}
+[0.478541] (realsense_ros) CommandEnded: {'returncode': 0}
+[0.499716] (-) TimerEvent: {}
+[0.507543] (realsense_ros) JobEnded: {'identifier': 'realsense_ros', 'rc': 0}
+[0.508352] (realsense_node) JobStarted: {'identifier': 'realsense_node'}
+[0.517457] (moveit_msgs) JobEnded: {'identifier': 'moveit_msgs', 'rc': 0}
+[0.518333] (grasp_ros2) JobStarted: {'identifier': 'grasp_ros2'}
+[0.521395] (realsense_node) JobProgress: {'identifier': 'realsense_node', 'progress': 'cmake'}
+[0.521812] (realsense_node) JobProgress: {'identifier': 'realsense_node', 'progress': 'build'}
+[0.521955] (realsense_node) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/realsense_node', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/realsense_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '0eacc6918a5b'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/realsense_ros/lib:/root/ros2_ws/install/realsense_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/realsense_ros:/root/ros2_ws/install/realsense_msgs:/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/realsense_node'), ('PYTHONPATH', '/root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/realsense_ros:/root/ros2_ws/install/realsense_msgs:/opt/ros/dashing')]), 'shell': False}
+[0.524770] (grasp_ros2) JobProgress: {'identifier': 'grasp_ros2', 'progress': 'cmake'}
+[0.525315] (grasp_ros2) JobProgress: {'identifier': 'grasp_ros2', 'progress': 'build'}
+[0.525610] (grasp_ros2) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/grasp_ros2', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/grasp_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '0eacc6918a5b'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/moveit_msgs/lib:/root/ros2_ws/install/grasp_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/grasp_ros2'), ('PYTHONPATH', '/root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages:/root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:/opt/ros/dashing')]), 'shell': False}
+[0.550046] (grasp_ros2) StdoutLine: {'line': b'[ 11%] Built target gtest\n'}
+[0.550255] (grasp_ros2) StdoutLine: {'line': b'[ 23%] Built target gtest_main\n'}
+[0.550816] (realsense_node) StdoutLine: {'line': b'[100%] Built target realsense_node\n'}
+[0.553786] (realsense_node) CommandEnded: {'returncode': 0}
+[0.560582] (grasp_ros2) StdoutLine: {'line': b'[ 47%] Built target grasp_plan\n'}
+[0.565930] (realsense_node) JobProgress: {'identifier': 'realsense_node', 'progress': 'install'}
+[0.566286] (realsense_node) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/realsense_node', '--target', 'install', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/realsense_node', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '0eacc6918a5b'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/realsense_ros/lib:/root/ros2_ws/install/realsense_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/realsense_ros:/root/ros2_ws/install/realsense_msgs:/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/realsense_node'), ('PYTHONPATH', '/root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/realsense_ros:/root/ros2_ws/install/realsense_msgs:/opt/ros/dashing')]), 'shell': False}
+[0.568383] (grasp_ros2) StdoutLine: {'line': b'[ 70%] Built target grasp_detect\n'}
+[0.571970] (grasp_ros2) StdoutLine: {'line': b'[ 88%] Built target tgrasp_ros2\n'}
+[0.590671] (grasp_ros2) StdoutLine: {'line': b'[100%] Built target grasp_ros2\n'}
+[0.594632] (grasp_ros2) CommandEnded: {'returncode': 0}
+[0.596123] (realsense_node) StdoutLine: {'line': b'[100%] Built target realsense_node\n'}
+[0.599126] (realsense_node) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.599787] (-) TimerEvent: {}
+[0.601506] (realsense_node) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.602585] (realsense_node) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.603541] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/lib/realsense_node/realsense_node\n'}
+[0.604218] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/bin/realsense_node\n'}
+[0.604867] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/ament_index/resource_index/package_run_dependencies/realsense_node\n'}
+[0.605315] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/ament_index/resource_index/parent_prefix_path/realsense_node\n'}
+[0.605882] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/environment/ament_prefix_path.sh\n'}
+[0.606390] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/environment/path.sh\n'}
+[0.606906] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/local_setup.bash\n'}
+[0.607411] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/local_setup.sh\n'}
+[0.607962] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/local_setup.zsh\n'}
+[0.608533] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/ament_index/resource_index/packages/realsense_node\n'}
+[0.609066] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/cmake/realsense_nodeConfig.cmake\n'}
+[0.609344] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/cmake/realsense_nodeConfig-version.cmake\n'}
+[0.609903] (realsense_node) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/package.xml\n'}
+[0.611367] (realsense_node) CommandEnded: {'returncode': 0}
+[0.619553] (grasp_ros2) JobProgress: {'identifier': 'grasp_ros2', 'progress': 'install'}
+[0.620018] (grasp_ros2) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/grasp_ros2', '--target', 'install', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/grasp_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '0eacc6918a5b'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/moveit_msgs/lib:/root/ros2_ws/install/grasp_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/grasp_ros2'), ('PYTHONPATH', '/root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages:/root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:/opt/ros/dashing')]), 'shell': False}
+[0.634701] (realsense_node) JobEnded: {'identifier': 'realsense_node', 'rc': 0}
+[0.644356] (grasp_ros2) StdoutLine: {'line': b'[ 11%] Built target gtest_main\n'}
+[0.644640] (grasp_ros2) StdoutLine: {'line': b'[ 23%] Built target gtest\n'}
+[0.654266] (grasp_ros2) StdoutLine: {'line': b'[ 47%] Built target grasp_plan\n'}
+[0.660825] (grasp_ros2) StdoutLine: {'line': b'[ 70%] Built target grasp_detect\n'}
+[0.664126] (grasp_ros2) StdoutLine: {'line': b'[ 88%] Built target tgrasp_ros2\n'}
+[0.684256] (grasp_ros2) StdoutLine: {'line': b'[100%] Built target grasp_ros2\n'}
+[0.689378] (grasp_ros2) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[0.691805] (grasp_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.692912] (grasp_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.693660] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/lib/libgrasp_detect.so\n'}
+[0.694052] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/lib/libgrasp_plan.so\n'}
+[0.694686] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/bin/grasp_ros2\n'}
+[0.695501] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/lib/grasp_ros2/grasp_ros2\n'}
+[0.696652] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/consts.hpp\n'}
+[0.696882] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/grasp_detector_base.hpp\n'}
+[0.697108] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/grasp_detector_gpd.hpp\n'}
+[0.697294] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/grasp_planner.hpp\n'}
+[0.697588] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/ros_params.hpp\n'}
+[0.698347] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/bin/tgrasp_ros2\n'}
+[0.699075] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/lib/grasp_ros2/tgrasp_ros2\n'}
+[0.699732] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/share/ament_index/resource_index/package_run_dependencies/grasp_ros2\n'}
+[0.699846] (-) TimerEvent: {}
+[0.700254] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/share/ament_index/resource_index/parent_prefix_path/grasp_ros2\n'}
+[0.700755] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/environment/ament_prefix_path.sh\n'}
+[0.701249] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/environment/path.sh\n'}
+[0.701748] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/local_setup.bash\n'}
+[0.702185] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/local_setup.sh\n'}
+[0.702697] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/local_setup.zsh\n'}
+[0.703342] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/share/ament_index/resource_index/packages/grasp_ros2\n'}
+[0.703935] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/share/ament_index/resource_index/rclcpp_components/grasp_ros2\n'}
+[0.704386] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/cmake/grasp_ros2Config.cmake\n'}
+[0.704657] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/cmake/grasp_ros2Config-version.cmake\n'}
+[0.705129] (grasp_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/package.xml\n'}
+[0.707964] (grasp_ros2) CommandEnded: {'returncode': 0}
+[0.767567] (grasp_ros2) JobEnded: {'identifier': 'grasp_ros2', 'rc': 0}
+[0.770379] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+/root/ros2_ws/build/grasp_msgs/rosidl_typesupport_fastrtps_c/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_fastrtps_c.h

@@ -1,0 +1,8 @@
+[01m[K/root/ros2_ws/src/ros2_intel_realsense/realsense_ros/tests/camera_core.cpp:[m[K In function '[01m[Kvoid getMsgInfo(rs2_stream, const ConstSharedPtr&)[m[K':
+[01m[K/root/ros2_ws/src/ros2_intel_realsense/realsense_ros/tests/camera_core.cpp:88:86:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+ tf(g_encoding_recv[stream], msg->encoding.length() + 1, msg->encoding.c_str()[01;35m[K)[m[K;
+                                                                              [01;35m[K^[m[K
+[01m[K/root/ros2_ws/src/ros2_intel_realsense/realsense_ros/tests/camera_core.cpp:[m[K In function '[01m[Kvoid getCameraInfo(rs2_stream, sensor_msgs::msg::CameraInfo_<std::allocator<void> >::SharedPtr)[m[K':
+[01m[K/root/ros2_ws/src/ros2_intel_realsense/realsense_ros/tests/camera_core.cpp:101:39:[m[K [01;35m[Kwarning: [m[Kformat not a string literal and no format arguments [[01;35m[K-Wformat-security[m[K]
+     info_msg->distortion_model.c_str()[01;35m[K)[m[K;
+                                       [01;35m[K^[m[K

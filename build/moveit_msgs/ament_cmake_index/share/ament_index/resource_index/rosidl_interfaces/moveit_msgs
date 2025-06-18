@@ -1,0 +1,16 @@
+msg/CollisionObject.idl
+msg/CollisionObject.msg
+msg/Grasp.idl
+msg/Grasp.msg
+msg/GripperTranslation.idl
+msg/GripperTranslation.msg
+msg/MoveItErrorCodes.idl
+msg/MoveItErrorCodes.msg
+msg/ObjectType.idl
+msg/ObjectType.msg
+msg/PlaceLocation.idl
+msg/PlaceLocation.msg
+srv/GraspPlanning.idl
+srv/GraspPlanning.srv
+srv/GraspPlanning_Request.msg
+srv/GraspPlanning_Response.msg

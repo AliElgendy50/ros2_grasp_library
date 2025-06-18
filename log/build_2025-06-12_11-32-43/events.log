@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000258] (-) JobUnselected: {'identifier': 'baldor'}
+[0.000340] (-) JobUnselected: {'identifier': 'criutils'}
+[0.000403] (-) JobUnselected: {'identifier': 'draw_x'}
+[0.000431] (-) JobUnselected: {'identifier': 'fixed_position_pick'}
+[0.000441] (-) JobUnselected: {'identifier': 'grasp_msgs'}
+[0.000451] (-) JobUnselected: {'identifier': 'grasp_tutorials'}
+[0.000471] (-) JobUnselected: {'identifier': 'handeye'}
+[0.000481] (-) JobUnselected: {'identifier': 'handeye_dashboard'}
+[0.000491] (-) JobUnselected: {'identifier': 'handeye_target_detection'}
+[0.000500] (-) JobUnselected: {'identifier': 'handeye_tf_service'}
+[0.000510] (-) JobUnselected: {'identifier': 'moveit_msgs'}
+[0.000520] (-) JobUnselected: {'identifier': 'random_pick'}
+[0.000529] (-) JobUnselected: {'identifier': 'realsense_examples'}
+[0.000538] (-) JobUnselected: {'identifier': 'realsense_msgs'}
+[0.000547] (-) JobUnselected: {'identifier': 'realsense_node'}
+[0.000557] (-) JobUnselected: {'identifier': 'realsense_ros'}
+[0.000566] (-) JobUnselected: {'identifier': 'recognize_pick'}
+[0.000575] (-) JobUnselected: {'identifier': 'robot_interface'}
+[0.000584] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000611] (grasp_ros2) JobQueued: {'identifier': 'grasp_ros2', 'dependencies': OrderedDict([('grasp_msgs', '/root/ros2_ws/install/grasp_msgs'), ('moveit_msgs', '/root/ros2_ws/install/moveit_msgs')])}
+[0.000650] (grasp_ros2) JobStarted: {'identifier': 'grasp_ros2'}
+[0.009407] (grasp_ros2) JobProgress: {'identifier': 'grasp_ros2', 'progress': 'cmake'}
+[0.010025] (grasp_ros2) JobProgress: {'identifier': 'grasp_ros2', 'progress': 'build'}
+[0.010535] (grasp_ros2) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/grasp_ros2', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/grasp_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '1bd1ca9b3cba'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/moveit_msgs/lib:/root/ros2_ws/install/grasp_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/grasp_ros2'), ('PYTHONPATH', '/root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages:/root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:/opt/ros/dashing')]), 'shell': False}
+[0.041105] (grasp_ros2) StdoutLine: {'line': b'[ 11%] Built target gtest\n'}
+[0.041446] (grasp_ros2) StdoutLine: {'line': b'[ 23%] Built target gtest_main\n'}
+[0.052742] (grasp_ros2) StdoutLine: {'line': b'[ 47%] Built target grasp_plan\n'}
+[0.059525] (grasp_ros2) StdoutLine: {'line': b'[ 70%] Built target grasp_detect\n'}
+[0.063044] (grasp_ros2) StdoutLine: {'line': b'[ 88%] Built target tgrasp_ros2\n'}
+[0.081365] (grasp_ros2) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX executable grasp_ros2\x1b[0m\n'}
+[0.099688] (-) TimerEvent: {}
+[0.200058] (-) TimerEvent: {}
+[0.300486] (-) TimerEvent: {}
+[0.400997] (-) TimerEvent: {}
+[0.501484] (-) TimerEvent: {}
+[0.601987] (-) TimerEvent: {}
+[0.702492] (-) TimerEvent: {}
+[0.802839] (-) TimerEvent: {}
+[0.903233] (-) TimerEvent: {}
+[1.003722] (-) TimerEvent: {}
+[1.104090] (-) TimerEvent: {}
+[1.204628] (-) TimerEvent: {}
+[1.305104] (-) TimerEvent: {}
+[1.372517] (grasp_ros2) StdoutLine: {'line': b'[100%] Built target grasp_ros2\n'}
+[1.376512] (grasp_ros2) CommandEnded: {'returncode': 0}
+[1.405246] (-) TimerEvent: {}
+[1.412111] (grasp_ros2) JobProgress: {'identifier': 'grasp_ros2', 'progress': 'install'}
+[1.420616] (grasp_ros2) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/root/ros2_ws/build/grasp_ros2', '--target', 'install', '--', '-j16', '-l16'], 'cwd': '/root/ros2_ws/build/grasp_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '1bd1ca9b3cba'), ('LD_LIBRARY_PATH', '/root/ros2_ws/install/moveit_msgs/lib:/root/ros2_ws/install/grasp_msgs/lib:/opt/ros/dashing/opt/yaml_cpp_vendor/lib:/opt/ros/dashing/opt/rviz_ogre_vendor/lib:/opt/ros/dashing/lib'), ('SHLVL', '1'), ('OLDPWD', '/root'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'dashing'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('PATH', '/opt/ros/dashing/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:/opt/ros/dashing'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/grasp_ros2'), ('PYTHONPATH', '/root/ros2_ws/install/moveit_msgs/lib/python3.6/site-packages:/root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages:/opt/ros/dashing/lib/python3.6/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/ros2_ws/install/moveit_msgs:/root/ros2_ws/install/grasp_msgs:/opt/ros/dashing')]), 'shell': False}
+[1.451908] (grasp_ros2) StdoutLine: {'line': b'[ 11%] Built target gtest\n'}
+[1.452069] (grasp_ros2) StdoutLine: {'line': b'[ 23%] Built target gtest_main\n'}
+[1.461456] (grasp_ros2) StdoutLine: {'line': b'[ 47%] Built target grasp_plan\n'}
+[1.468291] (grasp_ros2) StdoutLine: {'line': b'[ 70%] Built target grasp_detect\n'}
+[1.471083] (grasp_ros2) StdoutLine: {'line': b'[ 88%] Built target tgrasp_ros2\n'}
+[1.490912] (grasp_ros2) StdoutLine: {'line': b'[100%] Built target grasp_ros2\n'}
+[1.496765] (grasp_ros2) StdoutLine: {'line': b'\x1b[36mInstall the project...\x1b[0m\n'}
+[1.500636] (grasp_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.503060] (grasp_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.504498] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/lib/libgrasp_detect.so\n'}
+[1.505298] (-) TimerEvent: {}
+[1.508479] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/lib/libgrasp_plan.so\n'}
+[1.511646] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/bin/grasp_ros2\n'}
+[1.514171] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/lib/grasp_ros2/grasp_ros2\n'}
+[1.517105] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/consts.hpp\n'}
+[1.519302] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/grasp_detector_base.hpp\n'}
+[1.521432] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/grasp_detector_gpd.hpp\n'}
+[1.523557] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/grasp_planner.hpp\n'}
+[1.525785] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/ros_params.hpp\n'}
+[1.528445] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/bin/tgrasp_ros2\n'}
+[1.530922] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/lib/grasp_ros2/tgrasp_ros2\n'}
+[1.533021] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/ament_index/resource_index/package_run_dependencies/grasp_ros2\n'}
+[1.535352] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/ament_index/resource_index/parent_prefix_path/grasp_ros2\n'}
+[1.538044] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/environment/ament_prefix_path.sh\n'}
+[1.540395] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/environment/path.sh\n'}
+[1.542821] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/local_setup.bash\n'}
+[1.545543] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/local_setup.sh\n'}
+[1.547959] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/local_setup.zsh\n'}
+[1.550388] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/ament_index/resource_index/packages/grasp_ros2\n'}
+[1.552904] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/ament_index/resource_index/rclcpp_components/grasp_ros2\n'}
+[1.556108] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/cmake/grasp_ros2Config.cmake\n'}
+[1.559701] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/cmake/grasp_ros2Config-version.cmake\n'}
+[1.563902] (grasp_ros2) StdoutLine: {'line': b'-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/package.xml\n'}
+[1.570365] (grasp_ros2) CommandEnded: {'returncode': 0}
+[1.605519] (-) TimerEvent: {}
+[1.648130] (grasp_ros2) JobEnded: {'identifier': 'grasp_ros2', 'rc': 0}
+[1.649269] (-) EventReactorShutdown: {}

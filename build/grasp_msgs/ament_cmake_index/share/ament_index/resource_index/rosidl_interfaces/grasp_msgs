@@ -1,0 +1,6 @@
+msg/GraspConfig.idl
+msg/GraspConfig.msg
+msg/GraspConfigList.idl
+msg/GraspConfigList.msg
+msg/SamplesMsg.idl
+msg/SamplesMsg.msg

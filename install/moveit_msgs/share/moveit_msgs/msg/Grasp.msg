@@ -1,0 +1,1 @@
+/root/ros2_ws/src/ros2_grasp_library/moveit_msgs_light/msg/Grasp.msg

@@ -1,0 +1,39 @@
+[ 11%] Built target gtest
+[ 23%] Built target gtest_main
+[ 47%] Built target grasp_plan
+[ 70%] Built target grasp_detect
+[ 88%] Built target tgrasp_ros2
+[ 94%] [32m[1mLinking CXX executable grasp_ros2[0m
+[100%] Built target grasp_ros2
+[ 11%] Built target gtest
+[ 23%] Built target gtest_main
+[ 47%] Built target grasp_plan
+[ 70%] Built target grasp_detect
+[ 88%] Built target tgrasp_ros2
+[100%] Built target grasp_ros2
+[36mInstall the project...[0m
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/lib/libgrasp_detect.so
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/lib/libgrasp_plan.so
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/bin/grasp_ros2
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/lib/grasp_ros2/grasp_ros2
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/consts.hpp
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/grasp_detector_base.hpp
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/grasp_detector_gpd.hpp
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/grasp_planner.hpp
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/include/grasp_library/ros2/ros_params.hpp
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/bin/tgrasp_ros2
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/lib/grasp_ros2/tgrasp_ros2
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/ament_index/resource_index/package_run_dependencies/grasp_ros2
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/ament_index/resource_index/parent_prefix_path/grasp_ros2
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/environment/ament_prefix_path.sh
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/environment/path.sh
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/local_setup.bash
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/local_setup.sh
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/local_setup.zsh
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/ament_index/resource_index/packages/grasp_ros2
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/ament_index/resource_index/rclcpp_components/grasp_ros2
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/cmake/grasp_ros2Config.cmake
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/cmake/grasp_ros2Config-version.cmake
+-- Symlinking: /root/ros2_ws/install/grasp_ros2/share/grasp_ros2/package.xml

@@ -1,0 +1,12 @@
+{
+  "package_name": "moveit_msgs",
+  "non_idl_tuples": [
+    "/root/ros2_ws/src/ros2_grasp_library/moveit_msgs_light:msg/CollisionObject.msg",
+    "/root/ros2_ws/src/ros2_grasp_library/moveit_msgs_light:msg/Grasp.msg",
+    "/root/ros2_ws/src/ros2_grasp_library/moveit_msgs_light:msg/GripperTranslation.msg",
+    "/root/ros2_ws/src/ros2_grasp_library/moveit_msgs_light:msg/MoveItErrorCodes.msg",
+    "/root/ros2_ws/src/ros2_grasp_library/moveit_msgs_light:msg/ObjectType.msg",
+    "/root/ros2_ws/src/ros2_grasp_library/moveit_msgs_light:msg/PlaceLocation.msg",
+    "/root/ros2_ws/src/ros2_grasp_library/moveit_msgs_light:srv/GraspPlanning.srv"
+  ]
+}

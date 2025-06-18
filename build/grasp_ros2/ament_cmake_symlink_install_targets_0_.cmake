@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/root/ros2_ws/build/grasp_ros2/libgrasp_detect.so" "/root/ros2_ws/build/grasp_ros2/libgrasp_plan.so" "TARGETS" "grasp_detect" "grasp_plan" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")

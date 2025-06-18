@@ -1,0 +1,145 @@
+[0.000000] (-) TimerEvent: {}
+[0.000150] (-) JobUnselected: {'identifier': 'baldor'}
+[0.000171] (-) JobUnselected: {'identifier': 'criutils'}
+[0.000183] (-) JobUnselected: {'identifier': 'draw_x'}
+[0.000194] (-) JobUnselected: {'identifier': 'fixed_position_pick'}
+[0.000204] (-) JobUnselected: {'identifier': 'grasp_tutorials'}
+[0.000213] (-) JobUnselected: {'identifier': 'handeye'}
+[0.000222] (-) JobUnselected: {'identifier': 'handeye_dashboard'}
+[0.000231] (-) JobUnselected: {'identifier': 'handeye_target_detection'}
+[0.000240] (-) JobUnselected: {'identifier': 'handeye_tf_service'}
+[0.000249] (-) JobUnselected: {'identifier': 'random_pick'}
+[0.000258] (-) JobUnselected: {'identifier': 'realsense_examples'}
+[0.000268] (-) JobUnselected: {'identifier': 'recognize_pick'}
+[0.000277] (-) JobUnselected: {'identifier': 'robot_interface'}
+[0.000287] (-) JobUnselected: {'identifier': 'ur_description'}
+[0.000330] (grasp_msgs) JobQueued: {'identifier': 'grasp_msgs', 'dependencies': OrderedDict()}
+[0.000343] (moveit_msgs) JobQueued: {'identifier': 'moveit_msgs', 'dependencies': OrderedDict()}
+[0.000353] (realsense_msgs) JobQueued: {'identifier': 'realsense_msgs', 'dependencies': OrderedDict()}
+[0.000368] (grasp_ros2) JobQueued: {'identifier': 'grasp_ros2', 'dependencies': OrderedDict([('grasp_msgs', '/root/ros2_ws/install/grasp_msgs'), ('moveit_msgs', '/root/ros2_ws/install/moveit_msgs')])}
+[0.000380] (realsense_ros) JobQueued: {'identifier': 'realsense_ros', 'dependencies': OrderedDict([('realsense_msgs', '/root/ros2_ws/install/realsense_msgs')])}
+[0.000391] (realsense_node) JobQueued: {'identifier': 'realsense_node', 'dependencies': OrderedDict([('realsense_msgs', '/root/ros2_ws/install/realsense_msgs'), ('realsense_ros', '/root/ros2_ws/install/realsense_ros')])}
+[0.000401] (realsense_msgs) JobStarted: {'identifier': 'realsense_msgs'}
+[0.005392] (grasp_msgs) JobStarted: {'identifier': 'grasp_msgs'}
+[0.007492] (moveit_msgs) JobStarted: {'identifier': 'moveit_msgs'}
+[0.010848] (realsense_msgs) JobProgress: {'identifier': 'realsense_msgs', 'progress': 'cmake'}
+[0.011062] (realsense_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '/root/ros2_ws/src/ros2_intel_realsense/realsense_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/realsense_msgs'], 'cwd': '/root/ros2_ws/build/realsense_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '1bd1ca9b3cba'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/realsense_msgs'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1')]), 'shell': False}
+[0.014151] (grasp_msgs) JobProgress: {'identifier': 'grasp_msgs', 'progress': 'cmake'}
+[0.014373] (grasp_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '/root/ros2_ws/src/ros2_grasp_library/grasp_msgs', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/grasp_msgs'], 'cwd': '/root/ros2_ws/build/grasp_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '1bd1ca9b3cba'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/grasp_msgs'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1')]), 'shell': False}
+[0.015741] (moveit_msgs) JobProgress: {'identifier': 'moveit_msgs', 'progress': 'cmake'}
+[0.015922] (moveit_msgs) Command: {'cmd': ['/usr/local/bin/cmake', '/root/ros2_ws/src/ros2_grasp_library/moveit_msgs_light', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/moveit_msgs'], 'cwd': '/root/ros2_ws/build/moveit_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('HOSTNAME', '1bd1ca9b3cba'), ('SHLVL', '1'), ('HOME', '/root'), ('OLDPWD', '/root'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm'), ('PATH', '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/root/ros2_ws/build/moveit_msgs'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1')]), 'shell': False}
+[0.099516] (-) TimerEvent: {}
+[0.108307] (moveit_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.108611] (grasp_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.108682] (realsense_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 7.5.0\n'}
+[0.185620] (realsense_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.185783] (moveit_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.185838] (grasp_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 7.5.0\n'}
+[0.199320] (grasp_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199423] (realsense_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199469] (moveit_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199511] (-) TimerEvent: {}
+[0.239935] (grasp_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.240135] (moveit_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.240311] (realsense_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.243023] (realsense_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.243209] (moveit_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.243299] (grasp_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.283704] (realsense_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.283871] (moveit_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.283926] (grasp_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.299598] (-) TimerEvent: {}
+[0.322153] (moveit_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.322233] (grasp_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.322300] (realsense_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.399718] (-) TimerEvent: {}
+[0.444107] (realsense_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.445017] (grasp_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.445174] (moveit_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.452054] (realsense_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.457052] (moveit_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.457196] (grasp_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.498130] (realsense_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.499792] (-) TimerEvent: {}
+[0.501151] (realsense_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.510164] (grasp_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.510368] (moveit_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.512941] (grasp_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.513099] (moveit_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.547907] (realsense_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.558780] (moveit_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.558915] (grasp_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.586794] (realsense_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.597678] (grasp_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.597756] (moveit_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.599874] (-) TimerEvent: {}
+[0.700154] (-) TimerEvent: {}
+[0.800444] (-) TimerEvent: {}
+[0.808645] (realsense_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.815093] (grasp_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.815234] (moveit_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.816317] (realsense_msgs) StderrLine: {'line': b'CMake Error at CMakeLists.txt:18 (find_package):\n'}
+[0.816407] (realsense_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.816453] (realsense_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.816493] (realsense_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.816530] (realsense_msgs) StderrLine: {'line': b'\n'}
+[0.816568] (realsense_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.816606] (realsense_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.816643] (realsense_msgs) StderrLine: {'line': b'\n'}
+[0.816781] (realsense_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.816851] (realsense_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.816892] (realsense_msgs) StderrLine: {'line': b'\n'}
+[0.816930] (realsense_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.816968] (realsense_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.817005] (realsense_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.817043] (realsense_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.817079] (realsense_msgs) StderrLine: {'line': b'\n'}
+[0.817116] (realsense_msgs) StderrLine: {'line': b'\n'}
+[0.817153] (realsense_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.817193] (realsense_msgs) StdoutLine: {'line': b'See also "/root/ros2_ws/build/realsense_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.818759] (realsense_msgs) CommandEnded: {'returncode': 1}
+[0.822142] (grasp_msgs) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.822314] (grasp_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.822366] (grasp_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.822413] (grasp_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.822456] (grasp_msgs) StderrLine: {'line': b'\n'}
+[0.822497] (grasp_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.822539] (grasp_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.822580] (grasp_msgs) StderrLine: {'line': b'\n'}
+[0.822621] (grasp_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.822662] (grasp_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.822703] (grasp_msgs) StderrLine: {'line': b'\n'}
+[0.822743] (grasp_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.822783] (grasp_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.822823] (grasp_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.823012] (grasp_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.823052] (grasp_msgs) StderrLine: {'line': b'\n'}
+[0.823090] (grasp_msgs) StderrLine: {'line': b'\n'}
+[0.823130] (grasp_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.823182] (grasp_msgs) StdoutLine: {'line': b'See also "/root/ros2_ws/build/grasp_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.823234] (moveit_msgs) StderrLine: {'line': b'CMake Error at CMakeLists.txt:13 (find_package):\n'}
+[0.823300] (moveit_msgs) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.823338] (moveit_msgs) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.823376] (moveit_msgs) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.823413] (moveit_msgs) StderrLine: {'line': b'\n'}
+[0.823451] (moveit_msgs) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.823488] (moveit_msgs) StderrLine: {'line': b'  any of the following names:\n'}
+[0.823526] (moveit_msgs) StderrLine: {'line': b'\n'}
+[0.823562] (moveit_msgs) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.823599] (moveit_msgs) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.823637] (moveit_msgs) StderrLine: {'line': b'\n'}
+[0.823675] (moveit_msgs) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.823715] (moveit_msgs) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.823757] (moveit_msgs) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.823802] (moveit_msgs) StderrLine: {'line': b'  has been installed.\n'}
+[0.823842] (moveit_msgs) StderrLine: {'line': b'\n'}
+[0.823881] (moveit_msgs) StderrLine: {'line': b'\n'}
+[0.823921] (moveit_msgs) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.823965] (moveit_msgs) StdoutLine: {'line': b'See also "/root/ros2_ws/build/moveit_msgs/CMakeFiles/CMakeOutput.log".\n'}
+[0.838552] (realsense_msgs) JobEnded: {'identifier': 'realsense_msgs', 'rc': 1}
+[0.839069] (grasp_msgs) JobEnded: {'identifier': 'grasp_msgs', 'rc': 'SIGINT'}
+[0.839234] (moveit_msgs) JobEnded: {'identifier': 'moveit_msgs', 'rc': 'SIGINT'}
+[0.849660] (grasp_ros2) JobSkipped: {'identifier': 'grasp_ros2'}
+[0.849708] (realsense_ros) JobSkipped: {'identifier': 'realsense_ros'}
+[0.849722] (realsense_node) JobSkipped: {'identifier': 'realsense_node'}
+[0.849734] (-) EventReactorShutdown: {}

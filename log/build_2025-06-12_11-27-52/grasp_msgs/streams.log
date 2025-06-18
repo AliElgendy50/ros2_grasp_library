@@ -1,0 +1,200 @@
+[0.012s] Invoking command in '/root/ros2_ws/build/grasp_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake /root/ros2_ws/src/ros2_grasp_library/grasp_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/grasp_msgs
+[0.030s] -- Found ament_cmake: 0.7.6 (/opt/ros/dashing/share/ament_cmake/cmake)
+[0.055s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3") 
+[0.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.151s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.185s] -- Found rosidl_default_generators: 0.7.0 (/opt/ros/dashing/share/rosidl_default_generators/cmake)
+[0.300s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1")  
+[0.331s] -- Found FastRTPS: /opt/ros/dashing/include  
+[0.371s] -- Found rosidl_adapter: 0.7.10 (/opt/ros/dashing/share/rosidl_adapter/cmake)
+[0.536s] -- Found builtin_interfaces: 0.7.4 (/opt/ros/dashing/share/builtin_interfaces/cmake)
+[0.554s] -- Found std_msgs: 0.7.1 (/opt/ros/dashing/share/std_msgs/cmake)
+[0.568s] -- Found geometry_msgs: 0.7.1 (/opt/ros/dashing/share/geometry_msgs/cmake)
+[0.604s] -- Found PythonInterp: /usr/bin/python3 (found version "3.6.9") 
+[0.953s] -- Using single matching rosidl_typesupport_c: rosidl_typesupport_fastrtps_c
+[0.975s] -- Found ament_cmake_cppcheck: 0.7.12 (/opt/ros/dashing/share/ament_cmake_cppcheck/cmake)
+[0.978s] -- Found ament_cmake_cpplint: 0.7.12 (/opt/ros/dashing/share/ament_cmake_cpplint/cmake)
+[0.981s] -- Found ament_cmake_uncrustify: 0.7.12 (/opt/ros/dashing/share/ament_cmake_uncrustify/cmake)
+[1.129s] -- Using single matching rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp
+[2.288s] -- Found rmw_implementation_cmake: 0.7.2 (/opt/ros/dashing/share/rmw_implementation_cmake/cmake)
+[2.309s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.6.9", minimum required is "3.5") 
+[2.311s] -- Found python_cmake_module: 0.7.11 (/opt/ros/dashing/share/python_cmake_module/cmake)
+[2.336s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.6m.so (found suitable version "3.6.9", minimum required is "3.5") 
+[2.337s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.337s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.6m
+[2.337s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.6m.so
+[2.353s] -- Found PythonExtra: .so  
+[2.704s] -- Found ament_cmake_flake8: 0.7.12 (/opt/ros/dashing/share/ament_cmake_flake8/cmake)
+[2.707s] -- Found ament_cmake_pep257: 0.7.12 (/opt/ros/dashing/share/ament_cmake_pep257/cmake)
+[2.731s] -- Configuring done
+[2.887s] -- Generating done
+[2.891s] -- Build files have been written to: /root/ros2_ws/build/grasp_msgs
+[2.895s] Invoked command in '/root/ros2_ws/build/grasp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake /root/ros2_ws/src/ros2_grasp_library/grasp_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/ros2_ws/install/grasp_msgs
+[2.897s] Invoking command in '/root/ros2_ws/build/grasp_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/grasp_msgs -- -j16 -l16
+[2.914s] [35m[1mScanning dependencies of target grasp_msgs__cpp[0m
+[2.915s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.918s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.267s] [  4%] Built target grasp_msgs__cpp
+[3.271s] [  6%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.271s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.295s] [35m[1mScanning dependencies of target grasp_msgs__rosidl_generator_c[0m
+[3.304s] [ 11%] [32mBuilding C object CMakeFiles/grasp_msgs__rosidl_generator_c.dir/rosidl_generator_c/grasp_msgs/msg/grasp_config__functions.c.o[0m
+[3.304s] [ 13%] [32mBuilding C object CMakeFiles/grasp_msgs__rosidl_generator_c.dir/rosidl_generator_c/grasp_msgs/msg/grasp_config_list__functions.c.o[0m
+[3.304s] [ 15%] [32mBuilding C object CMakeFiles/grasp_msgs__rosidl_generator_c.dir/rosidl_generator_c/grasp_msgs/msg/samples_msg__functions.c.o[0m
+[3.325s] [ 17%] [32m[1mLinking C shared library libgrasp_msgs__rosidl_generator_c.so[0m
+[3.346s] [ 17%] Built target grasp_msgs__rosidl_generator_c
+[3.350s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.672s] [35m[1mScanning dependencies of target grasp_msgs__rosidl_typesupport_introspection_cpp[0m
+[3.681s] [ 22%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grasp_msgs/msg/grasp_config__type_support.cpp.o[0m
+[3.681s] [ 24%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grasp_msgs/msg/grasp_config_list__type_support.cpp.o[0m
+[3.681s] [ 26%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/grasp_msgs/msg/samples_msg__type_support.cpp.o[0m
+[3.692s] [35m[1mScanning dependencies of target grasp_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[3.702s] [ 28%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grasp_msgs/msg/dds_fastrtps/grasp_config__type_support.cpp.o[0m
+[3.703s] [ 31%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grasp_msgs/msg/dds_fastrtps/grasp_config_list__type_support.cpp.o[0m
+[3.703s] [ 33%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/grasp_msgs/msg/dds_fastrtps/samples_msg__type_support.cpp.o[0m
+[3.775s] [35m[1mScanning dependencies of target grasp_msgs__rosidl_typesupport_introspection_c[0m
+[3.792s] [ 35%] [32mBuilding C object CMakeFiles/grasp_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grasp_msgs/msg/grasp_config__type_support.c.o[0m
+[3.792s] [ 37%] [32mBuilding C object CMakeFiles/grasp_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grasp_msgs/msg/grasp_config_list__type_support.c.o[0m
+[3.792s] [ 40%] [32mBuilding C object CMakeFiles/grasp_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/grasp_msgs/msg/samples_msg__type_support.c.o[0m
+[3.822s] [ 42%] [32m[1mLinking C shared library libgrasp_msgs__rosidl_typesupport_introspection_c.so[0m
+[3.847s] [ 42%] Built target grasp_msgs__rosidl_typesupport_introspection_c
+[3.852s] [ 44%] [32m[1mLinking CXX shared library libgrasp_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[3.893s] [ 44%] Built target grasp_msgs__rosidl_typesupport_introspection_cpp
+[3.974s] [ 46%] [32m[1mLinking CXX shared library libgrasp_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.021s] [ 46%] Built target grasp_msgs__rosidl_typesupport_fastrtps_cpp
+[4.025s] [ 48%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.025s] [ 51%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.362s] [35m[1mScanning dependencies of target grasp_msgs__rosidl_typesupport_cpp[0m
+[4.372s] [ 55%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grasp_msgs/msg/grasp_config_list__type_support.cpp.o[0m
+[4.373s] [ 55%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grasp_msgs/msg/grasp_config__type_support.cpp.o[0m
+[4.373s] [ 57%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/grasp_msgs/msg/samples_msg__type_support.cpp.o[0m
+[4.386s] [35m[1mScanning dependencies of target grasp_msgs__rosidl_typesupport_fastrtps_c[0m
+[4.401s] [ 60%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grasp_msgs/msg/grasp_config__type_support_c.cpp.o[0m
+[4.402s] [ 64%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grasp_msgs/msg/grasp_config_list__type_support_c.cpp.o[0m
+[4.402s] [ 64%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/grasp_msgs/msg/samples_msg__type_support_c.cpp.o[0m
+[4.675s] [ 66%] [32m[1mLinking CXX shared library libgrasp_msgs__rosidl_typesupport_cpp.so[0m
+[4.679s] [ 68%] [32m[1mLinking CXX shared library libgrasp_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[4.735s] [ 68%] Built target grasp_msgs__rosidl_typesupport_fastrtps_c
+[4.735s] [ 68%] Built target grasp_msgs__rosidl_typesupport_cpp
+[4.738s] [ 71%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.047s] [35m[1mScanning dependencies of target grasp_msgs__rosidl_typesupport_c[0m
+[5.055s] [ 73%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_msgs/msg/grasp_config__type_support.cpp.o[0m
+[5.055s] [ 75%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_msgs/msg/grasp_config_list__type_support.cpp.o[0m
+[5.055s] [ 77%] [32mBuilding CXX object CMakeFiles/grasp_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/grasp_msgs/msg/samples_msg__type_support.cpp.o[0m
+[5.072s] [ 80%] [32m[1mLinking CXX shared library libgrasp_msgs__rosidl_typesupport_c.so[0m
+[5.104s] [ 80%] Built target grasp_msgs__rosidl_typesupport_c
+[5.108s] [35m[1mScanning dependencies of target grasp_msgs[0m
+[5.111s] [ 80%] Built target grasp_msgs
+[5.115s] [35m[1mScanning dependencies of target grasp_msgs__py[0m
+[5.119s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[6.038s] [ 82%] Built target grasp_msgs__py
+[6.042s] [35m[1mScanning dependencies of target grasp_msgs__python[0m
+[6.075s] [ 84%] [32mBuilding C object CMakeFiles/grasp_msgs__python.dir/rosidl_generator_py/grasp_msgs/msg/_grasp_config_s.c.o[0m
+[6.075s] [ 86%] [32mBuilding C object CMakeFiles/grasp_msgs__python.dir/rosidl_generator_py/grasp_msgs/msg/_grasp_config_list_s.c.o[0m
+[6.075s] [ 88%] [32mBuilding C object CMakeFiles/grasp_msgs__python.dir/rosidl_generator_py/grasp_msgs/msg/_samples_msg_s.c.o[0m
+[6.124s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/grasp_msgs/libgrasp_msgs__python.so[0m
+[6.155s] [ 91%] Built target grasp_msgs__python
+[6.159s] [35m[1mScanning dependencies of target grasp_msgs__rosidl_typesupport_c__pyext[0m
+[6.159s] [35m[1mScanning dependencies of target grasp_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[6.176s] [ 93%] [32mBuilding C object CMakeFiles/grasp_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/grasp_msgs/_grasp_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[6.176s] [ 95%] [32mBuilding C object CMakeFiles/grasp_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/grasp_msgs/_grasp_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.221s] [100%] [32m[1mLinking C shared library rosidl_generator_py/grasp_msgs/grasp_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so[0m
+[6.221s] [100%] [32m[1mLinking C shared library rosidl_generator_py/grasp_msgs/grasp_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so[0m
+[6.258s] [100%] Built target grasp_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.258s] [100%] Built target grasp_msgs__rosidl_typesupport_c__pyext
+[6.261s] Invoked command in '/root/ros2_ws/build/grasp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/grasp_msgs -- -j16 -l16
+[6.309s] Invoking command in '/root/ros2_ws/build/grasp_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/grasp_msgs --target install -- -j16 -l16
+[6.329s] [  2%] Built target grasp_msgs__cpp
+[6.332s] [ 13%] Built target grasp_msgs__rosidl_generator_c
+[6.339s] [ 24%] Built target grasp_msgs__rosidl_typesupport_introspection_cpp
+[6.341s] [ 35%] Built target grasp_msgs__rosidl_typesupport_fastrtps_cpp
+[6.341s] [ 46%] Built target grasp_msgs__rosidl_typesupport_introspection_c
+[6.353s] [ 64%] Built target grasp_msgs__rosidl_typesupport_fastrtps_c
+[6.353s] [ 68%] Built target grasp_msgs__rosidl_typesupport_cpp
+[6.365s] [ 80%] Built target grasp_msgs__rosidl_typesupport_c
+[6.371s] [ 80%] Built target grasp_msgs
+[6.378s] [ 82%] Built target grasp_msgs__py
+[6.390s] [ 91%] Built target grasp_msgs__python
+[6.402s] [100%] Built target grasp_msgs__rosidl_typesupport_fastrtps_c__pyext
+[6.402s] [100%] Built target grasp_msgs__rosidl_typesupport_c__pyext
+[6.407s] [36mInstall the project...[0m
+[6.409s] -- Install configuration: ""
+[6.411s] -- Execute custom install script
+[6.411s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/ament_index/resource_index/rosidl_interfaces/grasp_msgs
+[6.414s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_c.so
+[6.416s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/environment/library_path.sh
+[6.419s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_cpp.so
+[6.422s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__rosidl_typesupport_fastrtps_c.h
+[6.424s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_fastrtps_c.h
+[6.426s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.428s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__rosidl_typesupport_fastrtps_c.h
+[6.430s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_fastrtps_c.so
+[6.433s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config.h
+[6.436s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__functions.h
+[6.438s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__struct.h
+[6.440s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__type_support.h
+[6.442s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list.h
+[6.444s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__functions.h
+[6.446s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__struct.h
+[6.448s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__type_support.h
+[6.450s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/rosidl_generator_c__visibility_control.h
+[6.452s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg.h
+[6.454s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__functions.h
+[6.456s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__struct.h
+[6.458s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__type_support.h
+[6.460s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_generator_c.so
+[6.463s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__rosidl_typesupport_fastrtps_cpp.hpp
+[6.465s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_fastrtps_cpp.hpp
+[6.468s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.470s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[6.472s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_fastrtps_cpp.so
+[6.475s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config.hpp
+[6.477s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__struct.hpp
+[6.479s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__traits.hpp
+[6.481s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list.hpp
+[6.483s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__struct.hpp
+[6.485s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__traits.hpp
+[6.487s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg.hpp
+[6.489s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__struct.hpp
+[6.491s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__traits.hpp
+[6.493s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__rosidl_typesupport_introspection_c.h
+[6.495s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_introspection_c.h
+[6.497s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.499s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__rosidl_typesupport_introspection_c.h
+[6.502s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_introspection_c.so
+[6.505s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__rosidl_typesupport_introspection_cpp.hpp
+[6.507s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_introspection_cpp.hpp
+[6.509s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__rosidl_typesupport_introspection_cpp.hpp
+[6.511s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_introspection_cpp.so
+[6.513s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/environment/pythonpath.sh
+[6.516s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/__init__.py
+[6.519s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/msg/__init__.py
+[6.520s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/msg/_grasp_config.py
+[6.522s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/msg/_grasp_config_list.py
+[6.524s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/msg/_samples_msg.py
+[6.527s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/grasp_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[6.529s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/grasp_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[6.532s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__python.so
+[6.534s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/GraspConfig.idl
+[6.536s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/GraspConfigList.idl
+[6.539s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/SamplesMsg.idl
+[6.541s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/GraspConfig.msg
+[6.543s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/GraspConfigList.msg
+[6.545s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/SamplesMsg.msg
+[6.548s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/ament_index/resource_index/package_run_dependencies/grasp_msgs
+[6.550s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/ament_index/resource_index/parent_prefix_path/grasp_msgs
+[6.552s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/environment/ament_prefix_path.sh
+[6.554s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/environment/path.sh
+[6.556s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/local_setup.bash
+[6.559s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/local_setup.sh
+[6.561s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/local_setup.zsh
+[6.563s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/ament_index/resource_index/packages/grasp_msgs
+[6.565s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/rosidl_cmake-extras.cmake
+[6.568s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.570s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[6.572s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.574s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/grasp_msgsConfig.cmake
+[6.576s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/grasp_msgsConfig-version.cmake
+[6.579s] -- Symlinking: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/package.xml
+[6.600s] Compiling '/root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/__init__.py'...
+[6.605s] Invoked command in '/root/ros2_ws/build/grasp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/grasp_msgs --target install -- -j16 -l16

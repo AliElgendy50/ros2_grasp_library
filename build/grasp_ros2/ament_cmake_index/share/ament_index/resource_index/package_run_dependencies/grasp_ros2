@@ -1,0 +1,1 @@
+rosidl_default_runtime;builtin_interfaces;rclcpp;rclcpp_components;std_msgs;sensor_msgs;grasp_msgs;moveit_msgs;people_msgs;visualization_msgs;pcl_conversions;tf2;tf2_ros;tf2_geometry_msgs;trajectory_msgs;ament_lint_auto;ament_lint_common

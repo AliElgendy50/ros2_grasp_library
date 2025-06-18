@@ -1,0 +1,13 @@
+/root/ros2_ws/install/realsense_node/lib/realsense_node/realsense_node
+/root/ros2_ws/install/realsense_node/bin/realsense_node
+/root/ros2_ws/install/realsense_node/share/ament_index/resource_index/package_run_dependencies/realsense_node
+/root/ros2_ws/install/realsense_node/share/ament_index/resource_index/parent_prefix_path/realsense_node
+/root/ros2_ws/install/realsense_node/share/realsense_node/environment/ament_prefix_path.sh
+/root/ros2_ws/install/realsense_node/share/realsense_node/environment/path.sh
+/root/ros2_ws/install/realsense_node/share/realsense_node/local_setup.bash
+/root/ros2_ws/install/realsense_node/share/realsense_node/local_setup.sh
+/root/ros2_ws/install/realsense_node/share/realsense_node/local_setup.zsh
+/root/ros2_ws/install/realsense_node/share/ament_index/resource_index/packages/realsense_node
+/root/ros2_ws/install/realsense_node/share/realsense_node/cmake/realsense_nodeConfig.cmake
+/root/ros2_ws/install/realsense_node/share/realsense_node/cmake/realsense_nodeConfig-version.cmake
+/root/ros2_ws/install/realsense_node/share/realsense_node/package.xml

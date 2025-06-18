@@ -1,0 +1,1 @@
+/root/ros2_ws/src/ros2_grasp_library/grasp_msgs/msg/GraspConfig.msg

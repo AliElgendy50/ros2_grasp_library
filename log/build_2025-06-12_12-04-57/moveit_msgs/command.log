@@ -1,0 +1,4 @@
+Invoking command in '/root/ros2_ws/build/moveit_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/moveit_msgs -- -j16 -l16
+Invoked command in '/root/ros2_ws/build/moveit_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/moveit_msgs -- -j16 -l16
+Invoking command in '/root/ros2_ws/build/moveit_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/moveit_msgs --target install -- -j16 -l16
+Invoked command in '/root/ros2_ws/build/moveit_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/moveit_msgs --target install -- -j16 -l16

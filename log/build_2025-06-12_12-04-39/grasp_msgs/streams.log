@@ -1,0 +1,109 @@
+[0.012s] Invoking command in '/root/ros2_ws/build/grasp_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/grasp_msgs -- -j16 -l16
+[0.031s] [  2%] Built target grasp_msgs__cpp
+[0.034s] [ 13%] Built target grasp_msgs__rosidl_generator_c
+[0.041s] [ 24%] Built target grasp_msgs__rosidl_typesupport_introspection_cpp
+[0.043s] [ 35%] Built target grasp_msgs__rosidl_typesupport_fastrtps_cpp
+[0.044s] [ 46%] Built target grasp_msgs__rosidl_typesupport_introspection_c
+[0.055s] [ 57%] Built target grasp_msgs__rosidl_typesupport_cpp
+[0.055s] [ 68%] Built target grasp_msgs__rosidl_typesupport_fastrtps_c
+[0.067s] [ 80%] Built target grasp_msgs__rosidl_typesupport_c
+[0.073s] [ 80%] Built target grasp_msgs
+[0.080s] [ 82%] Built target grasp_msgs__py
+[0.092s] [ 91%] Built target grasp_msgs__python
+[0.103s] [ 95%] Built target grasp_msgs__rosidl_typesupport_c__pyext
+[0.103s] [100%] Built target grasp_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.108s] Invoked command in '/root/ros2_ws/build/grasp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/grasp_msgs -- -j16 -l16
+[0.154s] Invoking command in '/root/ros2_ws/build/grasp_msgs': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/grasp_msgs --target install -- -j16 -l16
+[0.174s] [  2%] Built target grasp_msgs__cpp
+[0.176s] [ 13%] Built target grasp_msgs__rosidl_generator_c
+[0.183s] [ 24%] Built target grasp_msgs__rosidl_typesupport_introspection_cpp
+[0.185s] [ 35%] Built target grasp_msgs__rosidl_typesupport_fastrtps_cpp
+[0.186s] [ 46%] Built target grasp_msgs__rosidl_typesupport_introspection_c
+[0.197s] [ 57%] Built target grasp_msgs__rosidl_typesupport_cpp
+[0.197s] [ 68%] Built target grasp_msgs__rosidl_typesupport_fastrtps_c
+[0.209s] [ 80%] Built target grasp_msgs__rosidl_typesupport_c
+[0.215s] [ 80%] Built target grasp_msgs
+[0.222s] [ 82%] Built target grasp_msgs__py
+[0.234s] [ 91%] Built target grasp_msgs__python
+[0.245s] [ 95%] Built target grasp_msgs__rosidl_typesupport_c__pyext
+[0.245s] [100%] Built target grasp_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.250s] [36mInstall the project...[0m
+[0.253s] -- Install configuration: ""
+[0.254s] -- Execute custom install script
+[0.255s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/ament_index/resource_index/rosidl_interfaces/grasp_msgs
+[0.255s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_c.so
+[0.256s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/environment/library_path.sh
+[0.257s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_cpp.so
+[0.258s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__rosidl_typesupport_fastrtps_c.h
+[0.258s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_fastrtps_c.h
+[0.259s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.259s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__rosidl_typesupport_fastrtps_c.h
+[0.260s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_fastrtps_c.so
+[0.261s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config.h
+[0.261s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__functions.h
+[0.262s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__struct.h
+[0.262s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__type_support.h
+[0.262s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list.h
+[0.263s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__functions.h
+[0.263s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__struct.h
+[0.263s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__type_support.h
+[0.263s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/rosidl_generator_c__visibility_control.h
+[0.264s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg.h
+[0.264s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__functions.h
+[0.264s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__struct.h
+[0.265s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__type_support.h
+[0.265s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_generator_c.so
+[0.267s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__rosidl_typesupport_fastrtps_cpp.hpp
+[0.267s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_fastrtps_cpp.hpp
+[0.267s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.268s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[0.268s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_fastrtps_cpp.so
+[0.270s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config.hpp
+[0.270s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__struct.hpp
+[0.270s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__traits.hpp
+[0.270s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list.hpp
+[0.271s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__struct.hpp
+[0.271s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__traits.hpp
+[0.271s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg.hpp
+[0.272s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__struct.hpp
+[0.272s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__traits.hpp
+[0.273s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__rosidl_typesupport_introspection_c.h
+[0.273s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_introspection_c.h
+[0.274s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.274s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__rosidl_typesupport_introspection_c.h
+[0.275s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_introspection_c.so
+[0.276s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config__rosidl_typesupport_introspection_cpp.hpp
+[0.276s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/grasp_config_list__rosidl_typesupport_introspection_cpp.hpp
+[0.276s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/include/grasp_msgs/msg/samples_msg__rosidl_typesupport_introspection_cpp.hpp
+[0.277s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__rosidl_typesupport_introspection_cpp.so
+[0.277s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/environment/pythonpath.sh
+[0.278s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/__init__.py
+[0.279s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/msg/__init__.py
+[0.279s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/msg/_grasp_config.py
+[0.280s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/msg/_grasp_config_list.py
+[0.280s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/msg/_samples_msg.py
+[0.281s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/grasp_msgs_s__rosidl_typesupport_c.cpython-36m-x86_64-linux-gnu.so
+[0.282s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/python3.6/site-packages/grasp_msgs/grasp_msgs_s__rosidl_typesupport_fastrtps_c.cpython-36m-x86_64-linux-gnu.so
+[0.282s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/lib/libgrasp_msgs__python.so
+[0.283s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/GraspConfig.idl
+[0.284s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/GraspConfigList.idl
+[0.284s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/SamplesMsg.idl
+[0.285s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/GraspConfig.msg
+[0.285s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/GraspConfigList.msg
+[0.285s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/msg/SamplesMsg.msg
+[0.286s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/ament_index/resource_index/package_run_dependencies/grasp_msgs
+[0.286s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/ament_index/resource_index/parent_prefix_path/grasp_msgs
+[0.287s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/environment/ament_prefix_path.sh
+[0.288s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/environment/path.sh
+[0.289s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/local_setup.bash
+[0.289s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/local_setup.sh
+[0.289s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/local_setup.zsh
+[0.290s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/ament_index/resource_index/packages/grasp_msgs
+[0.290s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/rosidl_cmake-extras.cmake
+[0.291s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.291s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[0.292s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.292s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/grasp_msgsConfig.cmake
+[0.293s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/cmake/grasp_msgsConfig-version.cmake
+[0.293s] -- Up-to-date symlink: /root/ros2_ws/install/grasp_msgs/share/grasp_msgs/package.xml
+[0.324s] Invoked command in '/root/ros2_ws/build/grasp_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/dashing /usr/local/bin/cmake --build /root/ros2_ws/build/grasp_msgs --target install -- -j16 -l16

@@ -1,0 +1,22 @@
+[0.015s] Invoking command in '/root/ros2_ws/build/realsense_node': AMENT_PREFIX_PATH=/root/ros2_ws/install/realsense_ros:/root/ros2_ws/install/realsense_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/realsense_ros:/root/ros2_ws/install/realsense_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/root/ros2_ws/install/realsense_ros/lib:/root/ros2_ws/install/realsense_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /root/ros2_ws/build/realsense_node -- -j16 -l16
+[0.043s] [100%] Built target realsense_node
+[0.046s] Invoked command in '/root/ros2_ws/build/realsense_node' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/realsense_ros:/root/ros2_ws/install/realsense_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/realsense_ros:/root/ros2_ws/install/realsense_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/root/ros2_ws/install/realsense_ros/lib:/root/ros2_ws/install/realsense_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /root/ros2_ws/build/realsense_node -- -j16 -l16
+[0.059s] Invoking command in '/root/ros2_ws/build/realsense_node': AMENT_PREFIX_PATH=/root/ros2_ws/install/realsense_ros:/root/ros2_ws/install/realsense_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/realsense_ros:/root/ros2_ws/install/realsense_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/root/ros2_ws/install/realsense_ros/lib:/root/ros2_ws/install/realsense_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /root/ros2_ws/build/realsense_node --target install -- -j16 -l16
+[0.088s] [100%] Built target realsense_node
+[0.091s] [36mInstall the project...[0m
+[0.093s] -- Install configuration: ""
+[0.094s] -- Execute custom install script
+[0.095s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/lib/realsense_node/realsense_node
+[0.096s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/bin/realsense_node
+[0.097s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/ament_index/resource_index/package_run_dependencies/realsense_node
+[0.097s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/ament_index/resource_index/parent_prefix_path/realsense_node
+[0.098s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/environment/ament_prefix_path.sh
+[0.098s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/environment/path.sh
+[0.099s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/local_setup.bash
+[0.099s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/local_setup.sh
+[0.100s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/local_setup.zsh
+[0.100s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/ament_index/resource_index/packages/realsense_node
+[0.101s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/cmake/realsense_nodeConfig.cmake
+[0.101s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/cmake/realsense_nodeConfig-version.cmake
+[0.102s] -- Up-to-date symlink: /root/ros2_ws/install/realsense_node/share/realsense_node/package.xml
+[0.104s] Invoked command in '/root/ros2_ws/build/realsense_node' returned '0': AMENT_PREFIX_PATH=/root/ros2_ws/install/realsense_ros:/root/ros2_ws/install/realsense_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/root/ros2_ws/install/realsense_ros:/root/ros2_ws/install/realsense_msgs:/opt/ros/dashing LD_LIBRARY_PATH=/root/ros2_ws/install/realsense_ros/lib:/root/ros2_ws/install/realsense_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/root/ros2_ws/install/realsense_msgs/lib/python3.6/site-packages:${PYTHONPATH} /usr/local/bin/cmake --build /root/ros2_ws/build/realsense_node --target install -- -j16 -l16

@@ -1,0 +1,1 @@
+/root/ros2_ws/build/grasp_msgs/rosidl_typesupport_introspection_cpp/grasp_msgs/msg/samples_msg__rosidl_typesupport_introspection_cpp.hpp

@@ -1,0 +1,1 @@
+/root/ros2_ws/build/realsense_msgs/rosidl_generator_cpp/realsense_msgs/msg/imu_info__struct.hpp

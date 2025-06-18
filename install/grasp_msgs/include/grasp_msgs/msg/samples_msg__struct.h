@@ -1,0 +1,1 @@
+/root/ros2_ws/build/grasp_msgs/rosidl_generator_c/grasp_msgs/msg/samples_msg__struct.h

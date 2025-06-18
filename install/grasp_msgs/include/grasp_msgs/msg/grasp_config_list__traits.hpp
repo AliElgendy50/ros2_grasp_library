@@ -1,0 +1,1 @@
+/root/ros2_ws/build/grasp_msgs/rosidl_generator_cpp/grasp_msgs/msg/grasp_config_list__traits.hpp

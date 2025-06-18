@@ -1,0 +1,1 @@
+/root/ros2_ws/build/grasp_ros2/ament_cmake_core/grasp_ros2Config.cmake
