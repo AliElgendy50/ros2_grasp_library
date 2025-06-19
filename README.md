@@ -1,59 +1,85 @@
-# DISCONTINUATION OF PROJECT #  
-This project will no longer be maintained by Intel.  
-Intel has ceased development and contributions including, but not limited to, maintenance, bug fixes, new releases, or updates, to this project.  
-Intel no longer accepts patches to this project.  
- If you have an ongoing need to use this project, are interested in independently developing it, or would like to maintain patches for the open source software community, please create your own fork of this project.  
-  
-Contact: webadmin@linux.intel.com
-# ROS2 Grasp Library
+# ROS2 Grasp Library Docker Environment
 
-A ROS2 intelligent visual grasp solution for advanced industrial usages, with OpenVINO™ grasp detection and MoveIt Grasp Planning.
+This repository provides a Docker environment for the ROS2 Grasp Library and its dependencies, based on Ubuntu 18.04 and ROS 2 Dashing.
 
-## Overview
-ROS2 Grasp Library enables state-of-the-art CNN based deep learning grasp detection algorithms on ROS2 for intelligent visual grasp in industrial robot usage scenarios. This package provides ROS2 interfaces compliant with the open source [MoveIt](http://moveit.ros.org/) motion planning framework supported by most of the [robot models](https://moveit.ros.org/robots) in ROS industrial. This package delivers
-* A ROS2 Grasp Planner providing grasp planning service, as an extensible capability of MoveIt ([moveit_msgs::srv::GraspPlanning](http://docs.ros.org/api/moveit_msgs/html/srv/GraspPlanning.html)), translating grasp detection results into MoveIt Interfaces ([moveit_msgs::msg::Grasp](http://docs.ros.org/api/moveit_msgs/html/msg/Grasp.html))
-* A ROS2 Grasp Detctor abstracting interfaces for grasp detection results
-* A ROS2 hand-eye calibration module generating transformation from camera frame to robot frame
-* ROS2 example applications demonstrating how to use this ROS2 Grasp Library in advanced industrial usages for intelligent visual grasp
+---
 
-## Grasp Detection Algorithms
-Grasp detection back-end algorithms enabled by this ROS2 Grasp Library:
-- [Grasp Pose Detection](https://github.com/atenpas/gpd) detects 6-DOF grasp poses for a 2-finger grasp (e.g. a parallel jaw gripper) in 3D point clouds from RGBD sensor or PCD file. The grasp detection was enabled with Intel® [DLDT](https://github.com/opencv/dldt) toolkit and Intel® [OpenVINO™](https://software.intel.com/en-us/openvino-toolkit) toolkit.
+## Features
 
-  <img src="grasp_tutorials/doc/grasp_ros2/img/ros2_grasp_library.png" width = 50% height = 50% alt="ROS2 Grasp Library" align=center />
+- Ubuntu 18.04 base image
+- ROS 2 Dashing and all required dependencies installed via scripts
+- Pre-configured for GPU, USB, and X11 GUI support (e.g., RViz)
+- Ready-to-build and run ROS 2 workspaces
 
-## Tutorials
-Refer to ROS2 Grasp Library [Tutorials](http://intel.github.io/ros2_grasp_library) for how to
-* Install, build, and launch the ROS2 Grasp Planner and Detector
-* Use launch options to customize in a new workspace
-* Bring up the intelligent visual grasp solution on a new robot
-* Do hand-eye calibration for a new camera setup
-* Launch the example applications
+---
 
-## Example Applications
+### 1. **Run the following command on your host**
 
-### Random Picking (OpenVINO Grasp Detection)
+```sh
+xhost +local:root
+```
+---
 
-[<img src="grasp_tutorials/_static/images/random_pick.png" width = 50% height = 50% alt="Random Pick with OpenVINO Grasp Detection - Link to Youtube video demo" align=center>](https://www.youtube.com/embed/b4EPvHdidOA)
+### 2. **clone the working branch**
 
-### Recognition Picking (OpenVINO Grasp Detection + OpenVINO Mask-rcnn Object Segmentation)
+```sh
+git clone -b dev-container-outside https://github.com/AliElgendy50/ros2_grasp_library.git
+cd ros2_grasp_library
+```
 
-[<img src="grasp_tutorials/_static/images/recognize_pick.png" width = 50% height = 50% alt="Recognition Pick with OpenVINO Grasp Detection - Link to Youtube video demo" align=center>](https://www.youtube.com/embed/trIt0uKRXBs)
+---
 
-## Known Issues
-  * Cloud camera failed at "Invalid sizes when resizing a matrix or array" when dealing with XYZRGBA pointcloud from ROS2 Realsenes, tracked as [#6](https://github.com/atenpas/gpg/issues/6) of gpg, [patch](https://github.com/atenpas/gpg/pull/7) under review.
-  * 'colcon test' sometimes failed with test suite "tgrasp_ros2", due to ROS2 service request failure issue (reported ros2 examples issue [#228](https://github.com/ros2/examples/issues/228) and detailed discussed in ros2 demo issue [#304](https://github.com/ros2/demos/issues/304))
-  * Rviz2 failed to receive Static TF from camera due to transient_local QoS (expected in the coming ROS2 Eloquent, discussed in geometry2 issue [#183](https://github.com/ros2/geometry2/issues/183)), workaround [patch](https://github.com/intel/ros2_intel_realsense/pull/88) available till the adaption to Eloquent
+### 3. Open in VS Code as Dev Container
 
-## Contribute to This Project
-  It's welcomed to contribute to this project. Here're some recommended practices:
-  * When adding a new feature it's expected to add tests covering the new functionalities
-    ```bash
-    colcon test --packages-select <names_of_affected_packages>
-    ```
-  * Before submitting a patch, it's recommended to pass all existing tests to avoid regression
-    ```bash
-    colcon test --packages-select <names_of_existing_packages>
-    ```
+-Open Visual Studio Code.
 
-###### *Any security issue should be reported using process at https://01.org/security*
+-Open the ros2_grasp_library folder.
+
+-When prompted, click “Reopen in Container”.
+
+-If not prompted, manually run:
+
+-Open Command Palette (Ctrl+Shift+P or Cmd+Shift+P)
+
+Select:
+(Dev Containers: Reopen in Container)
+
+VS Code will now build and attach to the container defined by .devcontainer/devcontainer.json.
+
+---
+
+
+### 4. ROS 2 Workspace Location (Inside Container)
+Once the container is running, the ROS 2 workspace is available at:
+
+```sh
+cd ~/ros2_ws
+```
+
+
+--
+
+### 5. **Install OpenGL Utilities in the Container**
+
+```sh
+apt update
+apt install -y mesa-utils
+glxinfo | grep "OpenGL"
+```
+
+### 6. **Run ROS 2 Nodes (each in a separate terminal)**
+
+**Terminal 1:**
+```sh
+ros2 run grasp_ros2 grasp_ros2 __params:=src/ros2_grasp_library/grasp_ros2/cfg/grasp_ros2_params.yaml
+```
+
+**Terminal 2:**
+```sh
+ros2 run realsense_node realsense_node
+```
+
+**Terminal 3:**
+```sh
+ros2 run rviz2 rviz2 -d src/ros2_grasp_library/grasp_ros2/rviz2/grasp.rviz
+```
