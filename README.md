@@ -20,7 +20,7 @@ xhost +local:root
 ```
 ---
 
-### 5. **Install OpenGL Utilities in the Container**
+### 3. **Install OpenGL Utilities in the Container**
 
 ```sh
 apt update
@@ -28,7 +28,7 @@ apt install -y mesa-utils
 glxinfo | grep "OpenGL"
 ```
 
-### 6. **Run ROS 2 Nodes (each in a separate terminal)**
+### 4. **Run ROS 2 Nodes (each in a separate terminal)**
 
 **Terminal 1:**
 ```sh
