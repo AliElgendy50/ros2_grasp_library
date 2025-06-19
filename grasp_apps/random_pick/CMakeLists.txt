@@ -12,11 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-option(BUILD_RANDOM_PICK "build random_pick app" ON)
-if(NOT BUILD_RANDOM_PICK STREQUAL "ON")
-  return()
-endif()
-
 cmake_minimum_required(VERSION 3.5)
 project(random_pick)
 

@@ -12,10 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-option(BUILD_RECOGNIZE_PICK "build recognize_pick app" OFF)
-if(NOT BUILD_RECOGNIZE_PICK STREQUAL "ON")
-  return()
-endif()
 
 cmake_minimum_required(VERSION 3.5)
 project(recognize_pick)

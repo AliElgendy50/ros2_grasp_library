@@ -1,4 +1,4 @@
-#!/bin/bash
+=#!/bin/bash
 
 DEPS_DIR=${DEPS_PATH}
 MKL_URL=https://github.com/intel/mkl-dnn/releases/download/v0.19/mklml_lnx_2019.0.5.20190502.tgz
@@ -54,7 +54,7 @@ mkdir -p build && cd build &&\
   -DTHREADING=OMP \
   -DENABLE_MKL_DNN=ON \
   -DENABLE_CLDNN=ON \
-  -DENABLE_OPENCV=OFF \
+  -DENABLE_OPENCV=ON \
   ..
 cd $DEPS_DIR/openvino/inference-engine/build
 make -j8
@@ -65,4 +65,5 @@ $SUDO mkdir -p /usr/share/InferenceEngine &&\
   $SUDO cp targets.cmake /usr/share/InferenceEngine &&\
   echo `pwd`/../bin/intel64/Release/lib | $SUDO tee -a /etc/ld.so.conf.d/openvino.conf &&\
   $SUDO ldconfig
+$SUDO mkdir -p /opt/openvino_toolkit
 $SUDO ln -sf $DEPS_DIR/openvino /opt/openvino_toolkit/openvino
