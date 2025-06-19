@@ -20,7 +20,46 @@ xhost +local:root
 ```
 ---
 
-### 2. **Install OpenGL Utilities in the Container**
+### 2. **clone the working branch**
+
+```sh
+git clone -b dev-container-outside https://github.com/AliElgendy50/ros2_grasp_library.git
+cd ros2_grasp_library
+```
+
+---
+
+### 3. Open in VS Code as Dev Container
+
+-Open Visual Studio Code.
+
+-Open the ros2_grasp_library folder.
+
+-When prompted, click “Reopen in Container”.
+
+-If not prompted, manually run:
+
+-Open Command Palette (Ctrl+Shift+P or Cmd+Shift+P)
+
+Select:
+(Dev Containers: Reopen in Container)
+
+VS Code will now build and attach to the container defined by .devcontainer/devcontainer.json.
+
+---
+
+
+### 4. ROS 2 Workspace Location (Inside Container)
+Once the container is running, the ROS 2 workspace is available at:
+
+```sh
+cd ~/ros2_ws
+```
+
+
+--
+
+### 5. **Install OpenGL Utilities in the Container**
 
 ```sh
 apt update
@@ -28,7 +67,7 @@ apt install -y mesa-utils
 glxinfo | grep "OpenGL"
 ```
 
-### 3. **Run ROS 2 Nodes (each in a separate terminal)**
+### 6. **Run ROS 2 Nodes (each in a separate terminal)**
 
 **Terminal 1:**
 ```sh
