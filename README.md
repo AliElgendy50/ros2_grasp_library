@@ -13,14 +13,14 @@ This repository provides a Docker environment for the ROS2 Grasp Library and its
 
 ---
 
-### 2. **Run the following command on your host**
+### 1. **Run the following command on your host**
 
 ```sh
 xhost +local:root
 ```
 ---
 
-### 3. **Install OpenGL Utilities in the Container**
+### 2. **Install OpenGL Utilities in the Container**
 
 ```sh
 apt update
@@ -28,7 +28,7 @@ apt install -y mesa-utils
 glxinfo | grep "OpenGL"
 ```
 
-### 4. **Run ROS 2 Nodes (each in a separate terminal)**
+### 3. **Run ROS 2 Nodes (each in a separate terminal)**
 
 **Terminal 1:**
 ```sh
